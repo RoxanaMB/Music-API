@@ -1,0 +1,2660 @@
+{
+  "artists": [
+    {
+      "name": "John Lennon",
+      "groups": [
+        "The Beatles"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 33850074
+    },
+    {
+      "name": "Paul McCartney",
+      "groups": [
+        "The Beatles"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 35631937
+    },
+    {
+      "name": "George Harrison",
+      "groups": [
+        "The Beatles"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 31837107
+    },
+    {
+      "name": "Ringo Starr",
+      "groups": [
+        "The Beatles"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 26461397
+    },
+    {
+      "name": "Michael Jackson",
+      "groups": [],
+      "genres": [
+        "Pop"
+      ],
+      "albums": [
+        "Off the Wall"
+      ],
+      "songs": [
+        "Don't Stop 'Till You Get Enough",
+        "Rock With You",
+        "Workin' Day and Night",
+        "Get On the Floor",
+        "Off the Wall",
+        "Girlfriend",
+        "She's Out of My Life",
+        "I Can't Help It",
+        "It's the Falling in Love",
+        "Burn This Disco Out"
+      ],
+      "numFollowers": 28223624
+    },
+    {
+      "name": "Elvis Presley",
+      "groups": [],
+      "genres": [
+        "Rock",
+        "Pop"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 12790222
+    },
+    {
+      "name": "Freddie Mercury",
+      "groups": [
+        "Queen"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 39833076
+    },
+    {
+      "name": "Brian May",
+      "groups": [
+        "Queen"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 37603233
+    },
+    {
+      "name": "John Deacon",
+      "groups": [
+        "Queen"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 37277494
+    },
+    {
+      "name": "Roger Taylor",
+      "groups": [
+        "Queen"
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 37448005
+    },
+    {
+      "name": "Mick Jagger",
+      "groups": [
+        "The Rolling Stones"
+      ],
+      "genres": [
+        "Rock",
+        "Heavy Metal"
+      ],
+      "albums": [],
+      "songs": [
+        "Strange Game"
+      ],
+      "numFollowers": 21408814
+    },
+    {
+      "name": "Keith Richards",
+      "groups": [
+        "The Rolling Stones"
+      ],
+      "genres": [
+        "Rock",
+        "Heavy Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 20169375
+    },
+    {
+      "name": "Brian Johnson",
+      "groups": [
+        "The Rolling Stones"
+      ],
+      "genres": [
+        "Rock",
+        "Heavy Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 20470475
+    },
+    {
+      "name": "Bill Wyman",
+      "groups": [
+        "The Rolling Stones"
+      ],
+      "genres": [
+        "Rock",
+        "Heavy Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 19815804
+    },
+    {
+      "name": "Charlie Watts",
+      "groups": [
+        "The Rolling Stones"
+      ],
+      "genres": [
+        "Rock",
+        "Heavy Metal"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 19778159
+    },
+    {
+      "name": "Victoria Beckham",
+      "groups": [
+        "Spice Girls"
+      ],
+      "genres": [
+        "Pop"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 8661562
+    },
+    {
+      "name": "Melanie Chisholm",
+      "groups": [
+        "Spice Girls"
+      ],
+      "genres": [
+        "Pop"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 8614286
+    },
+    {
+      "name": "Geri Halliwell",
+      "groups": [
+        "Spice Girls"
+      ],
+      "genres": [
+        "Pop"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 9349625
+    },
+    {
+      "name": "Mel B",
+      "groups": [
+        "Spice Girls"
+      ],
+      "genres": [
+        "Pop"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 8672854
+    },
+    {
+      "name": "Emma Bunton",
+      "groups": [
+        "Spice Girls"
+      ],
+      "genres": [
+        "Pop"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 8895039
+    },
+    {
+      "name": "Agnetha Fältskog",
+      "groups": [
+        "ABBA"
+      ],
+      "genres": [
+        "Pop"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 18369176
+    },
+    {
+      "name": "Anni-Frid Lyngstad",
+      "groups": [
+        "ABBA"
+      ],
+      "genres": [
+        "Pop"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 18234799
+    },
+    {
+      "name": "Björn Ulvaeus",
+      "groups": [
+        "ABBA"
+      ],
+      "genres": [
+        "Pop"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 18334504
+    },
+    {
+      "name": "Benny Andersson",
+      "groups": [
+        "ABBA"
+      ],
+      "genres": [
+        "Pop"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 18545174
+    },
+    {
+      "name": "Eminem",
+      "groups": [],
+      "genres": [
+        "Rap"
+      ],
+      "albums": [
+        "The Eminem Show"
+      ],
+      "songs": [
+        "White America",
+        "Business",
+        "Cleanin' Out My Closet",
+        "Square Dance",
+        "Soldier",
+        "Say Goodbye, Hollywood",
+        "Drips",
+        "Without Me",
+        "Sing For the Moment",
+        "Superman",
+        "Hailies Song",
+        "When the Music Stops",
+        "Say What You Say",
+        "Till I Collapse",
+        "My Dad's Gone Crazy",
+        "Curtains Close"
+      ],
+      "numFollowers": 52865425
+    },
+    {
+      "name": "Zatu",
+      "groups": [
+        "SFDK"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 885696
+    },
+    {
+      "name": "Acción Sánchez",
+      "groups": [
+        "SFDK"
+      ],
+      "genres": [
+        "Rap"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 1003637
+    },
+    {
+      "name": "Kase O",
+      "groups": [],
+      "genres": [
+        "Rap"
+      ],
+      "albums": [],
+      "songs": [
+        "El Gordo Que La Pisa Bien"
+      ],
+      "numFollowers": 922177
+    },
+    {
+      "name": "Residente",
+      "groups": [],
+      "genres": [
+        "Rap"
+      ],
+      "albums": [],
+      "songs": [
+        "René"
+      ],
+      "numFollowers": 8465441
+    },
+    {
+      "name": "George Benson",
+      "groups": [],
+      "genres": [
+        "Jazz"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 3501238
+    },
+    {
+      "name": "Miles Davis",
+      "groups": [],
+      "genres": [
+        "Jazz"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 2047335
+    },
+    {
+      "name": "John Coltrane",
+      "groups": [],
+      "genres": [
+        "Jazz"
+      ],
+      "albums": [
+        "Sun Ship"
+      ],
+      "songs": [
+        "Sun Ship",
+        "Dearly Beloved",
+        "Amen",
+        "Attaining",
+        "Ascent"
+      ],
+      "numFollowers": 2159268
+    },
+    {
+      "name": "Alex Turner",
+      "groups": [
+        "Artic Monkeys"
+      ],
+      "genres": [
+        "Indie"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 26493653
+    },
+    {
+      "name": "Matt Helders",
+      "groups": [
+        "Artic Monkeys"
+      ],
+      "genres": [
+        "Indie"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 25303493
+    },
+    {
+      "name": "Jamie Cook",
+      "groups": [
+        "Artic Monkeys"
+      ],
+      "genres": [
+        "Indie"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 25293703
+    },
+    {
+      "name": "Nick O'Malley",
+      "groups": [
+        "Artic Monkeys"
+      ],
+      "genres": [
+        "Indie"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 25301219
+    },
+    {
+      "name": "Andy Nicholson",
+      "groups": [
+        "Artic Monkeys"
+      ],
+      "genres": [
+        "Indie"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 25302427
+    },
+    {
+      "name": "Bob Marley",
+      "groups": [],
+      "genres": [
+        "Reggae"
+      ],
+      "albums": [
+        "Live!"
+      ],
+      "songs": [
+        "One Love",
+        "Trenchtown Rock",
+        "Burnin' and Lootin'",
+        "Them Belly Full",
+        "Lively Up Yourself",
+        "No Woman, No Cry",
+        "I Shot The Sheriff",
+        "Get Up, Stand Up",
+        "Kinky Reggae"
+      ],
+      "numFollowers": 13577790
+    },
+    {
+      "name": "Peter Tosh",
+      "groups": [],
+      "genres": [
+        "Reggae"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 1259421
+    },
+    {
+      "name": "Dennis Brown",
+      "groups": [],
+      "genres": [
+        "Reggae"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 674278
+    },
+    {
+      "name": "Skrillex",
+      "groups": [],
+      "genres": [
+        "Electro"
+      ],
+      "albums": [
+        "Recess"
+      ],
+      "songs": [
+        "All Is Fair In Love and Brostep",
+        "Recess",
+        "Stranger",
+        "Try It Out",
+        "Coast Is Clear",
+        "Dirty Vibe",
+        "Raggabomb",
+        "Doompy Poomp",
+        "Fuck That",
+        "Ease My Mind",
+        "Fire Away"
+      ],
+      "numFollowers": 20183037
+    },
+    {
+      "name": "Calvin Harris",
+      "groups": [],
+      "genres": [
+        "Electro"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 37755620
+    },
+    {
+      "name": "Gaspard Augé",
+      "groups": [
+        "Justice"
+      ],
+      "genres": [
+        "Electro"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 2400411
+    },
+    {
+      "name": "Xavier De Rosnay",
+      "groups": [
+        "Justice"
+      ],
+      "genres": [
+        "Electro"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 2233953
+    },
+    {
+      "name": "Dolly Parton",
+      "groups": [],
+      "genres": [
+        "Country"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 10148245
+    },
+    {
+      "name": "Johnny Cash",
+      "groups": [],
+      "genres": [
+        "Country"
+      ],
+      "albums": [
+        "Rainbow"
+      ],
+      "songs": [
+        "I'm Leaving Now",
+        "Here Comes That Rainbow Again",
+        "They're All The Same",
+        "Easy Street",
+        "Have You Ever Seen The Rain",
+        "You Beat All I Ever Saw",
+        "Unwed Fathers",
+        "Love Me Like You Used To",
+        "Casey's Last Ride",
+        "Borderline"
+      ],
+      "numFollowers": 10204322
+    },
+    {
+      "name": "Willie Nelson",
+      "groups": [],
+      "genres": [
+        "Country"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 5922543
+    },
+    {
+      "name": "Jisoo",
+      "groups": [
+        "Blackpink"
+      ],
+      "genres": [
+        "KPOP"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 13858143
+    },
+    {
+      "name": "Jennie",
+      "groups": [
+        "Blackpink"
+      ],
+      "genres": [
+        "KPOP"
+      ],
+      "albums": [],
+      "songs": [],
+      "numFollowers": 16845990
+    },
+    {
+      "name": "Rosé",
+      "groups": [
+        "Blackpink"
+      ],
+      "genres": [
+        "KPOP"
+      ],
+      "albums": [],
+      "songs": [
+        "On The Ground",
+        "Gone"
+      ],
+      "numFollowers": 17196398
+    },
+    {
+      "name": "Lisa",
+      "groups": [
+        "Blackpink"
+      ],
+      "genres": [
+        "KPOP"
+      ],
+      "albums": [],
+      "songs": [
+        "Money"
+      ],
+      "numFollowers": 27288611
+    }
+  ],
+  "groups": [
+    {
+      "name": "The Beatles",
+      "artists": [
+        "John Lennon",
+        "Paul McCartney",
+        "George Harrison",
+        "Ringo Starr"
+      ],
+      "creationYear": 1960,
+      "genres": [
+        "Rock"
+      ],
+      "albums": [
+        "Abbey Road"
+      ],
+      "numFollowers": 25157822
+    },
+    {
+      "name": "Queen",
+      "artists": [
+        "Freddie Mercury",
+        "Brian May",
+        "John Deacon",
+        "Roger Taylor"
+      ],
+      "creationYear": 1970,
+      "genres": [
+        "Rock"
+      ],
+      "albums": [],
+      "numFollowers": 37276204
+    },
+    {
+      "name": "The Rolling Stones",
+      "artists": [
+        "Mick Jagger",
+        "Keith Richards",
+        "Brian Johnson",
+        "Bill Wyman",
+        "Charlie Watts"
+      ],
+      "creationYear": 1962,
+      "genres": [
+        "Rock",
+        "Heavy Metal"
+      ],
+      "albums": [
+        "Aftermath"
+      ],
+      "numFollowers": 19745741
+    },
+    {
+      "name": "Spice Girls",
+      "artists": [
+        "Victoria Beckham",
+        "Melanie Chisholm",
+        "Geri Halliwell",
+        "Mel B",
+        "Emma Bunton"
+      ],
+      "creationYear": 1994,
+      "genres": [
+        "Pop"
+      ],
+      "albums": [],
+      "numFollowers": 8614262
+    },
+    {
+      "name": "ABBA",
+      "artists": [
+        "Agnetha Fältskog",
+        "Anni-Frid Lyngstad",
+        "Björn Ulvaeus",
+        "Benny Andersson"
+      ],
+      "creationYear": 1972,
+      "genres": [
+        "Pop"
+      ],
+      "albums": [],
+      "numFollowers": 18021401
+    },
+    {
+      "name": "SFDK",
+      "artists": [
+        "Zatu",
+        "Acción Sánchez"
+      ],
+      "creationYear": 1993,
+      "genres": [
+        "Rap"
+      ],
+      "albums": [],
+      "numFollowers": 877370
+    },
+    {
+      "name": "Artic Monkeys",
+      "artists": [
+        "Alex Turner",
+        "Matt Helders",
+        "Jamie Cook",
+        "Nick O'Malley",
+        "Andy Nicholson"
+      ],
+      "creationYear": 2002,
+      "genres": [
+        "Indie"
+      ],
+      "albums": [
+        "AM"
+      ],
+      "numFollowers": 25291395
+    },
+    {
+      "name": "Justice",
+      "artists": [
+        "Gaspard Augé",
+        "Xavier De Rosnay"
+      ],
+      "creationYear": 2003,
+      "genres": [
+        "Electro"
+      ],
+      "albums": [],
+      "numFollowers": 2233879
+    },
+    {
+      "name": "Blackpink",
+      "artists": [
+        "Jisoo",
+        "Jennie",
+        "Rosé",
+        "Lisa"
+      ],
+      "creationYear": 2016,
+      "genres": [
+        "KPOP"
+      ],
+      "albums": [
+        "The Album"
+      ],
+      "numFollowers": 13843448
+    }
+  ],
+  "genres": [
+    {
+      "name": "Rock",
+      "artists": [
+        "John Lennon",
+        "Paul McCartney",
+        "George Harrison",
+        "Ringo Starr",
+        "Elvis Presley",
+        "Freddie Mercury",
+        "Brian May",
+        "John Deacon",
+        "Roger Taylor",
+        "Mick Jagger",
+        "Keith Richards",
+        "Brian Johnson",
+        "Bill Wyman",
+        "Charlie Watts"
+      ],
+      "groups": [
+        "The Beatles",
+        "Queen",
+        "The Rolling Stones"
+      ],
+      "albums": [
+        "Abbey Road"
+      ],
+      "songs": [
+        "Who Wants To Live Forever",
+        "Strange Game",
+        "Come Together",
+        "Something",
+        "Maxwell's Silver Hammer",
+        "Oh! Darling",
+        "Octopus's Garden",
+        "I Want You",
+        "Here Comes the Sun",
+        "Because",
+        "You Never Give Me Your Money",
+        "Sun King",
+        "Mean Mr. Mustard",
+        "Polythene Pam",
+        "She Came In Through the Bathroom Window",
+        "Golden Slumbers",
+        "Carry That Weight",
+        "The End",
+        "Her Majesty",
+        "Paint It, Black",
+        "Stupid Girl",
+        "Lady Jane",
+        "Under My Thumb",
+        "Don'cha Bother Me",
+        "Think",
+        "Flight 505",
+        "High and Dry",
+        "It's Not Easy",
+        "I Am Waiting",
+        "Going Home"
+      ]
+    },
+    {
+      "name": "Pop",
+      "artists": [
+        "Michael Jackson",
+        "Elvis Presley",
+        "Victoria Beckham",
+        "Melanie Chisholm",
+        "Geri Halliwell",
+        "Mel B",
+        "Emma Bunton",
+        "Agnetha Fältskog",
+        "Anni-Frid Lyngstad",
+        "Björn Ulvaeus",
+        "Benny Andersson"
+      ],
+      "groups": [
+        "Spice Girls",
+        "ABBA"
+      ],
+      "albums": [
+        "Off the Wall"
+      ],
+      "songs": [
+        "Little Things",
+        "Wannabe",
+        "Don't Stop 'Till You Get Enough",
+        "Rock With You",
+        "Workin' Day and Night",
+        "Get On the Floor",
+        "Off the Wall",
+        "Girlfriend",
+        "She's Out of My Life",
+        "I Can't Help It",
+        "It's the Falling in Love",
+        "Burn This Disco Out"
+      ]
+    },
+    {
+      "name": "Rap",
+      "artists": [
+        "Eminem",
+        "Zatu",
+        "Acción Sánchez",
+        "Kase O",
+        "Residente"
+      ],
+      "groups": [
+        "SFDK"
+      ],
+      "albums": [
+        "The Eminem Show"
+      ],
+      "songs": [
+        "René",
+        "El Gordo Que La Pisa Bien",
+        "White America",
+        "Business",
+        "Cleanin' Out My Closet",
+        "Square Dance",
+        "Soldier",
+        "Say Goodbye, Hollywood",
+        "Drips",
+        "Without Me",
+        "Sing For the Moment",
+        "Superman",
+        "Hailies Song",
+        "When the Music Stops",
+        "Say What You Say",
+        "Till I Collapse",
+        "My Dad's Gone Crazy",
+        "Curtains Close"
+      ]
+    },
+    {
+      "name": "Heavy Metal",
+      "artists": [
+        "Mick Jagger",
+        "Keith Richards",
+        "Brian Johnson",
+        "Bill Wyman",
+        "Charlie Watts"
+      ],
+      "groups": [
+        "The Rolling Stones"
+      ],
+      "albums": [
+        "Aftermath"
+      ],
+      "songs": [
+        "Strange Game",
+        "Paint It, Black",
+        "Stupid Girl",
+        "Lady Jane",
+        "Under My Thumb",
+        "Don'cha Bother Me",
+        "Think",
+        "Flight 505",
+        "High and Dry",
+        "It's Not Easy",
+        "I Am Waiting",
+        "Going Home"
+      ]
+    },
+    {
+      "name": "Jazz",
+      "artists": [
+        "George Benson",
+        "Miles Davis",
+        "John Coltrane"
+      ],
+      "groups": [],
+      "albums": [
+        "Sun Ship"
+      ],
+      "songs": [
+        "Sun Ship",
+        "Dearly Beloved",
+        "Amen",
+        "Attaining",
+        "Ascent"
+      ]
+    },
+    {
+      "name": "Indie",
+      "artists": [
+        "Alex Turner",
+        "Matt Helders",
+        "Jamie Cook",
+        "Nick O'Malley",
+        "Andy Nicholson"
+      ],
+      "groups": [
+        "Artic Monkeys"
+      ],
+      "albums": [
+        "AM"
+      ],
+      "songs": [
+        "Do I Wanna Know?",
+        "R U Mine?",
+        "One For The Road",
+        "Arabella",
+        "I Want It All",
+        "No.1 Party Anthem",
+        "Mad Sounds",
+        "Fireside",
+        "Whyd You Only Call Me When You're High?",
+        "Snap Out Of It",
+        "Knee Socks",
+        "I Wanna Be Yours"
+      ]
+    },
+    {
+      "name": "Reggae",
+      "artists": [
+        "Bob Marley",
+        "Peter Tosh",
+        "Dennis Brown"
+      ],
+      "groups": [],
+      "albums": [
+        "Live!"
+      ],
+      "songs": [
+        "One Love",
+        "Trenchtown Rock",
+        "Burnin' and Lootin'",
+        "Them Belly Full",
+        "Lively Up Yourself",
+        "No Woman, No Cry",
+        "I Shot The Sheriff",
+        "Get Up, Stand Up",
+        "Kinky Reggae"
+      ]
+    },
+    {
+      "name": "Electro",
+      "artists": [
+        "Skrillex",
+        "Calvin Harris",
+        "Gaspard Augé",
+        "Xavier De Rosnay"
+      ],
+      "groups": [
+        "Justice"
+      ],
+      "albums": [
+        "Recess"
+      ],
+      "songs": [
+        "Belladone",
+        "All Is Fair In Love and Brostep",
+        "Recess",
+        "Stranger",
+        "Try It Out",
+        "Coast Is Clear",
+        "Dirty Vibe",
+        "Raggabomb",
+        "Doompy Poomp",
+        "Fuck That",
+        "Ease My Mind",
+        "Fire Away"
+      ]
+    },
+    {
+      "name": "Country",
+      "artists": [
+        "Dolly Parton",
+        "Johnny Cash",
+        "Willie Nelson"
+      ],
+      "groups": [],
+      "albums": [
+        "Rainbow"
+      ],
+      "songs": [
+        "I'm Leaving Now",
+        "Here Comes That Rainbow Again",
+        "They're All The Same",
+        "Easy Street",
+        "Have You Ever Seen The Rain",
+        "You Beat All I Ever Saw",
+        "Unwed Fathers",
+        "Love Me Like You Used To",
+        "Casey's Last Ride",
+        "Borderline"
+      ]
+    },
+    {
+      "name": "KPOP",
+      "artists": [
+        "Jisoo",
+        "Jennie",
+        "Rosé",
+        "Lisa"
+      ],
+      "groups": [
+        "Blackpink"
+      ],
+      "albums": [
+        "The Album"
+      ],
+      "songs": [
+        "Money",
+        "On The Ground",
+        "Gone",
+        "How You Like That",
+        "Ice Cream",
+        "Pretty Savage",
+        "Bet You Wanna",
+        "Lovesick Girls",
+        "Crazy Over You",
+        "Love To Hate Me",
+        "You Never Know"
+      ]
+    }
+  ],
+  "albums": [
+    {
+      "name": "Abbey Road",
+      "author": "The Beatles",
+      "year": 1969,
+      "genres": [
+        "Rock"
+      ],
+      "songs": [
+        "Come Together",
+        "Something",
+        "Maxwell's Silver Hammer",
+        "Oh! Darling",
+        "Octopus's Garden",
+        "I Want You",
+        "Here Comes the Sun",
+        "Because",
+        "You Never Give Me Your Money",
+        "Sun King",
+        "Mean Mr. Mustard",
+        "Polythene Pam",
+        "She Came In Through the Bathroom Window",
+        "Golden Slumbers",
+        "Carry That Weight",
+        "The End",
+        "Her Majesty"
+      ]
+    },
+    {
+      "name": "Off the Wall",
+      "author": "Michael Jackson",
+      "year": 1979,
+      "genres": [
+        "Pop"
+      ],
+      "songs": [
+        "Don't Stop 'Till You Get Enough",
+        "Rock With You",
+        "Workin' Day and Night",
+        "Get On the Floor",
+        "Off the Wall",
+        "Girlfriend",
+        "She's Out of My Life",
+        "I Can't Help It",
+        "It's the Falling in Love",
+        "Burn This Disco Out"
+      ]
+    },
+    {
+      "name": "The Eminem Show",
+      "author": "Eminem",
+      "year": 2001,
+      "genres": [
+        "Rap"
+      ],
+      "songs": [
+        "White America",
+        "Business",
+        "Cleanin' Out My Closet",
+        "Square Dance",
+        "Soldier",
+        "Say Goodbye, Hollywood",
+        "Drips",
+        "Without Me",
+        "Sing For the Moment",
+        "Superman",
+        "Hailies Song",
+        "When the Music Stops",
+        "Say What You Say",
+        "Till I Collapse",
+        "My Dad's Gone Crazy",
+        "Curtains Close"
+      ]
+    },
+    {
+      "name": "Aftermath",
+      "author": "The Rolling Stones",
+      "year": 1996,
+      "genres": [
+        "Heavy Metal"
+      ],
+      "songs": [
+        "Paint It, Black",
+        "Stupid Girl",
+        "Lady Jane",
+        "Under My Thumb",
+        "Don'cha Bother Me",
+        "Think",
+        "Flight 505",
+        "High and Dry",
+        "It's Not Easy",
+        "I Am Waiting",
+        "Going Home"
+      ]
+    },
+    {
+      "name": "Sun Ship",
+      "author": "John Coltrane",
+      "year": 1971,
+      "genres": [
+        "Jazz"
+      ],
+      "songs": [
+        "Sun Ship",
+        "Dearly Beloved",
+        "Amen",
+        "Attaining",
+        "Ascent"
+      ]
+    },
+    {
+      "name": "AM",
+      "author": "Artic Monkeys",
+      "year": 2013,
+      "genres": [
+        "Indie"
+      ],
+      "songs": [
+        "Do I Wanna Know?",
+        "R U Mine?",
+        "One For The Road",
+        "Arabella",
+        "I Want It All",
+        "No.1 Party Anthem",
+        "Mad Sounds",
+        "Fireside",
+        "Whyd You Only Call Me When You're High?",
+        "Snap Out Of It",
+        "Knee Socks",
+        "I Wanna Be Yours"
+      ]
+    },
+    {
+      "name": "Live!",
+      "author": "Bob Marley",
+      "year": 1975,
+      "genres": [
+        "Reggae"
+      ],
+      "songs": [
+        "Trenchtown Rock",
+        "Burnin' and Lootin'",
+        "Them Belly Full",
+        "Lively Up Yourself",
+        "No Woman, No Cry",
+        "I Shot The Sheriff",
+        "Get Up, Stand Up",
+        "Kinky Reggae"
+      ]
+    },
+    {
+      "name": "Recess",
+      "author": "Skrillex",
+      "year": 2013,
+      "genres": [
+        "Electro"
+      ],
+      "songs": [
+        "All Is Fair In Love and Brostep",
+        "Recess",
+        "Stranger",
+        "Try It Out",
+        "Coast Is Clear",
+        "Dirty Vibe",
+        "Raggabomb",
+        "Doompy Poomp",
+        "Fuck That",
+        "Ease My Mind",
+        "Fire Away"
+      ]
+    },
+    {
+      "name": "Rainbow",
+      "author": "Johnny Cash",
+      "year": 1985,
+      "genres": [
+        "Country"
+      ],
+      "songs": [
+        "I'm Leaving Now",
+        "Here Comes That Rainbow Again",
+        "They're All The Same",
+        "Easy Street",
+        "Have You Ever Seen The Rain",
+        "You Beat All I Ever Saw",
+        "Unwed Fathers",
+        "Love Me Like You Used To",
+        "Casey's Last Ride",
+        "Borderline"
+      ]
+    },
+    {
+      "name": "The Album",
+      "author": "Blackpink",
+      "year": 2020,
+      "genres": [
+        "KPOP"
+      ],
+      "songs": [
+        "How You Like That",
+        "Ice Cream",
+        "Pretty Savage",
+        "Bet You Wanna",
+        "Lovesick Girls",
+        "Crazy Over You",
+        "Love To Hate Me",
+        "You Never Know"
+      ]
+    }
+  ],
+  "songs": [
+    {
+      "name": "René",
+      "author": "Residente",
+      "duration": "7:37",
+      "genres": [
+        "Rap"
+      ],
+      "isSingle": true,
+      "numRep": 94054084
+    },
+    {
+      "name": "El Gordo Que La Pisa Bien",
+      "author": "Kase O",
+      "duration": "4:48",
+      "genres": [
+        "Rap"
+      ],
+      "isSingle": true,
+      "numRep": 363462
+    },
+    {
+      "name": "One Love",
+      "author": "Bob Marley",
+      "duration": "3:35",
+      "genres": [
+        "Reggae"
+      ],
+      "isSingle": true,
+      "numRep": 502213
+    },
+    {
+      "name": "Little Things",
+      "author": "ABBA",
+      "duration": "3:08",
+      "genres": [
+        "Pop"
+      ],
+      "isSingle": true,
+      "numRep": 514093
+    },
+    {
+      "name": "Who Wants To Live Forever",
+      "author": "Queen",
+      "duration": "4:03",
+      "genres": [
+        "Rock"
+      ],
+      "isSingle": true,
+      "numRep": 2213791
+    },
+    {
+      "name": "Wannabe",
+      "author": "Spice Girls",
+      "duration": "2:56",
+      "genres": [
+        "Pop"
+      ],
+      "isSingle": true,
+      "numRep": 712136798
+    },
+    {
+      "name": "Money",
+      "author": "Lisa",
+      "duration": "2:48",
+      "genres": [
+        "KPOP"
+      ],
+      "isSingle": true,
+      "numRep": 426332264
+    },
+    {
+      "name": "Belladone",
+      "author": "Justice",
+      "duration": "4:16",
+      "genres": [
+        "Electro"
+      ],
+      "isSingle": true,
+      "numRep": 884359
+    },
+    {
+      "name": "On The Ground",
+      "author": "Rosé",
+      "duration": "2:48",
+      "genres": [
+        "KPOP"
+      ],
+      "isSingle": true,
+      "numRep": 199598287
+    },
+    {
+      "name": "Gone",
+      "author": "Rosé",
+      "duration": "3:27",
+      "genres": [
+        "KPOP"
+      ],
+      "isSingle": true,
+      "numRep": 141975115
+    },
+    {
+      "name": "Strange Game",
+      "author": "Mick Jagger",
+      "duration": "3:33",
+      "genres": [
+        "Heavy Metal",
+        "Rock"
+      ],
+      "isSingle": true,
+      "numRep": 69950
+    },
+    {
+      "name": "Come Together",
+      "author": "The Beatles",
+      "duration": "4:19",
+      "genres": [
+        "Rock"
+      ],
+      "isSingle": false,
+      "numRep": 499684022
+    },
+    {
+      "name": "Something",
+      "author": "The Beatles",
+      "duration": "3:02",
+      "genres": [
+        "Rock"
+      ],
+      "isSingle": false,
+      "numRep": 197189221
+    },
+    {
+      "name": "Maxwell's Silver Hammer",
+      "author": "The Beatles",
+      "duration": "3:27",
+      "genres": [
+        "Rock"
+      ],
+      "isSingle": false,
+      "numRep": 38375251
+    },
+    {
+      "name": "Oh! Darling",
+      "author": "The Beatles",
+      "duration": "3:27",
+      "genres": [
+        "Rock"
+      ],
+      "isSingle": false,
+      "numRep": 98398321
+    },
+    {
+      "name": "Octopus's Garden",
+      "author": "The Beatles",
+      "duration": "2:50",
+      "genres": [
+        "Rock"
+      ],
+      "isSingle": false,
+      "numRep": 57472485
+    },
+    {
+      "name": "I Want You",
+      "author": "The Beatles",
+      "duration": "7:47",
+      "genres": [
+        "Rock"
+      ],
+      "isSingle": false,
+      "numRep": 53042945
+    },
+    {
+      "name": "Here Comes the Sun",
+      "author": "The Beatles",
+      "duration": "3:05",
+      "genres": [
+        "Rock"
+      ],
+      "isSingle": false,
+      "numRep": 795808675
+    },
+    {
+      "name": "Because",
+      "author": "The Beatles",
+      "duration": "2:45",
+      "genres": [
+        "Rock"
+      ],
+      "isSingle": false,
+      "numRep": 40615158
+    },
+    {
+      "name": "You Never Give Me Your Money",
+      "author": "The Beatles",
+      "duration": "4:02",
+      "genres": [
+        "Rock"
+      ],
+      "isSingle": false,
+      "numRep": 36883929
+    },
+    {
+      "name": "Sun King",
+      "author": "The Beatles",
+      "duration": "2:26",
+      "genres": [
+        "Rock"
+      ],
+      "isSingle": false,
+      "numRep": 28387201
+    },
+    {
+      "name": "Mean Mr. Mustard",
+      "author": "The Beatles",
+      "duration": "1:06",
+      "genres": [
+        "Rock"
+      ],
+      "isSingle": false,
+      "numRep": 24175553
+    },
+    {
+      "name": "Polythene Pam",
+      "author": "The Beatles",
+      "duration": "1:12",
+      "genres": [
+        "Rock"
+      ],
+      "isSingle": false,
+      "numRep": 23628092
+    },
+    {
+      "name": "She Came In Through the Bathroom Window",
+      "author": "The Beatles",
+      "duration": "1:58",
+      "genres": [
+        "Rock"
+      ],
+      "isSingle": false,
+      "numRep": 31640379
+    },
+    {
+      "name": "Golden Slumbers",
+      "author": "The Beatles",
+      "duration": "1:31",
+      "genres": [
+        "Rock"
+      ],
+      "isSingle": false,
+      "numRep": 68501524
+    },
+    {
+      "name": "Carry That Weight",
+      "author": "The Beatles",
+      "duration": "1:36",
+      "genres": [
+        "Rock"
+      ],
+      "isSingle": false,
+      "numRep": 46272727
+    },
+    {
+      "name": "The End",
+      "author": "The Beatles",
+      "duration": "2:21",
+      "genres": [
+        "Rock"
+      ],
+      "isSingle": false,
+      "numRep": 30732219
+    },
+    {
+      "name": "Her Majesty",
+      "author": "The Beatles",
+      "duration": "0:25",
+      "genres": [
+        "Rock"
+      ],
+      "isSingle": false,
+      "numRep": 210266
+    },
+    {
+      "name": "Don't Stop 'Till You Get Enough",
+      "author": "Michael Jackson",
+      "duration": "6:05",
+      "genres": [
+        "Pop"
+      ],
+      "isSingle": false,
+      "numRep": 330767961
+    },
+    {
+      "name": "Rock With You",
+      "author": "Michael Jackson",
+      "duration": "3:40",
+      "genres": [
+        "Pop"
+      ],
+      "isSingle": false,
+      "numRep": 283300363
+    },
+    {
+      "name": "Workin' Day and Night",
+      "author": "Michael Jackson",
+      "duration": "5:13",
+      "genres": [
+        "Pop"
+      ],
+      "isSingle": false,
+      "numRep": 57983665
+    },
+    {
+      "name": "Get On the Floor",
+      "author": "Michael Jackson",
+      "duration": "4:37",
+      "genres": [
+        "Pop"
+      ],
+      "isSingle": false,
+      "numRep": 14393189
+    },
+    {
+      "name": "Off the Wall",
+      "author": "Michael Jackson",
+      "duration": "4:06",
+      "genres": [
+        "Pop"
+      ],
+      "isSingle": false,
+      "numRep": 57983665
+    },
+    {
+      "name": "Girlfriend",
+      "author": "Michael Jackson",
+      "duration": "3:04",
+      "genres": [
+        "Pop"
+      ],
+      "isSingle": false,
+      "numRep": 11757577
+    },
+    {
+      "name": "She's Out of My Life",
+      "author": "Michael Jackson",
+      "duration": "3:38",
+      "genres": [
+        "Pop"
+      ],
+      "isSingle": false,
+      "numRep": 40367243
+    },
+    {
+      "name": "I Can't Help It",
+      "author": "Michael Jackson",
+      "duration": "4:29",
+      "genres": [
+        "Pop"
+      ],
+      "isSingle": false,
+      "numRep": 31791128
+    },
+    {
+      "name": "It's the Falling in Love",
+      "author": "Michael Jackson",
+      "duration": "3:47",
+      "genres": [
+        "Pop"
+      ],
+      "isSingle": false,
+      "numRep": 9222024
+    },
+    {
+      "name": "Burn This Disco Out",
+      "author": "Michael Jackson",
+      "duration": "3:41",
+      "genres": [
+        "Pop"
+      ],
+      "isSingle": false,
+      "numRep": 9821140
+    },
+    {
+      "name": "White America",
+      "author": "Eminem",
+      "duration": "5:24",
+      "genres": [
+        "Rap"
+      ],
+      "isSingle": false,
+      "numRep": 122212600
+    },
+    {
+      "name": "Business",
+      "author": "Eminem",
+      "duration": "4:11",
+      "genres": [
+        "Rap"
+      ],
+      "isSingle": false,
+      "numRep": 94415451
+    },
+    {
+      "name": "Cleanin' Out My Closet",
+      "author": "Eminem",
+      "duration": "4:57",
+      "genres": [
+        "Rap"
+      ],
+      "isSingle": false,
+      "numRep": 257169039
+    },
+    {
+      "name": "Square Dance",
+      "author": "Eminem",
+      "duration": "5:23",
+      "genres": [
+        "Rap"
+      ],
+      "isSingle": false,
+      "numRep": 51848759
+    },
+    {
+      "name": "Soldier",
+      "author": "Eminem",
+      "duration": "3:46",
+      "genres": [
+        "Rap"
+      ],
+      "isSingle": false,
+      "numRep": 70844056
+    },
+    {
+      "name": "Say Goodbye, Hollywood",
+      "author": "Eminem",
+      "duration": "4:32",
+      "genres": [
+        "Rap"
+      ],
+      "isSingle": false,
+      "numRep": 42288908
+    },
+    {
+      "name": "Drips",
+      "author": "Eminem",
+      "duration": "4:45",
+      "genres": [
+        "Rap"
+      ],
+      "isSingle": false,
+      "numRep": 30861929
+    },
+    {
+      "name": "Without Me",
+      "author": "Eminem",
+      "duration": "4:50",
+      "genres": [
+        "Rap"
+      ],
+      "isSingle": false,
+      "numRep": 1104021888
+    },
+    {
+      "name": "Sing For the Moment",
+      "author": "Eminem",
+      "duration": "5:39",
+      "genres": [
+        "Rap"
+      ],
+      "isSingle": false,
+      "numRep": 278130971
+    },
+    {
+      "name": "Superman",
+      "author": "Eminem",
+      "duration": "5:50",
+      "genres": [
+        "Rap"
+      ],
+      "isSingle": false,
+      "numRep": 258389371
+    },
+    {
+      "name": "Hailies Song",
+      "author": "Eminem",
+      "duration": "5:20",
+      "genres": [
+        "Rap"
+      ],
+      "isSingle": false,
+      "numRep": 92165080
+    },
+    {
+      "name": "When the Music Stops",
+      "author": "Eminem",
+      "duration": "4:29",
+      "genres": [
+        "Rap"
+      ],
+      "isSingle": false,
+      "numRep": 54160291
+    },
+    {
+      "name": "Say What You Say",
+      "author": "Eminem",
+      "duration": "5:09",
+      "genres": [
+        "Rap"
+      ],
+      "isSingle": false,
+      "numRep": 34567943
+    },
+    {
+      "name": "Till I Collapse",
+      "author": "Eminem",
+      "duration": "4:57",
+      "genres": [
+        "Rap"
+      ],
+      "isSingle": false,
+      "numRep": 1299871362
+    },
+    {
+      "name": "My Dad's Gone Crazy",
+      "author": "Eminem",
+      "duration": "4:27",
+      "genres": [
+        "Rap"
+      ],
+      "isSingle": false,
+      "numRep": 58933709
+    },
+    {
+      "name": "Curtains Close",
+      "author": "Eminem",
+      "duration": "1:01",
+      "genres": [
+        "Rap"
+      ],
+      "isSingle": false,
+      "numRep": 13694116
+    },
+    {
+      "name": "Paint It, Black",
+      "author": "The Rolling Stones",
+      "duration": "3:22",
+      "genres": [
+        "Rock",
+        "Heavy Metal"
+      ],
+      "isSingle": false,
+      "numRep": 701109314
+    },
+    {
+      "name": "Stupid Girl",
+      "author": "The Rolling Stones",
+      "duration": "2:55",
+      "genres": [
+        "Rock",
+        "Heavy Metal"
+      ],
+      "isSingle": false,
+      "numRep": 3948391
+    },
+    {
+      "name": "Lady Jane",
+      "author": "The Rolling Stones",
+      "duration": "3:08",
+      "genres": [
+        "Rock",
+        "Heavy Metal"
+      ],
+      "isSingle": false,
+      "numRep": 9845668
+    },
+    {
+      "name": "Under My Thumb",
+      "author": "The Rolling Stones",
+      "duration": "3:41",
+      "genres": [
+        "Rock",
+        "Heavy Metal"
+      ],
+      "isSingle": false,
+      "numRep": 92526334
+    },
+    {
+      "name": "Don'cha Bother Me",
+      "author": "The Rolling Stones",
+      "duration": "2:41",
+      "genres": [
+        "Rock",
+        "Heavy Metal"
+      ],
+      "isSingle": false,
+      "numRep": 2213339
+    },
+    {
+      "name": "Think",
+      "author": "The Rolling Stones",
+      "duration": "3:09",
+      "genres": [
+        "Rock",
+        "Heavy Metal"
+      ],
+      "isSingle": false,
+      "numRep": 1804491
+    },
+    {
+      "name": "Flight 505",
+      "author": "The Rolling Stones",
+      "duration": "3:27",
+      "genres": [
+        "Rock",
+        "Heavy Metal"
+      ],
+      "isSingle": false,
+      "numRep": 1805650
+    },
+    {
+      "name": "High and Dry",
+      "author": "The Rolling Stones",
+      "duration": "3:08",
+      "genres": [
+        "Rock",
+        "Heavy Metal"
+      ],
+      "isSingle": false,
+      "numRep": 1675198
+    },
+    {
+      "name": "It's Not Easy",
+      "author": "The Rolling Stones",
+      "duration": "2:56",
+      "genres": [
+        "Rock",
+        "Heavy Metal"
+      ],
+      "isSingle": false,
+      "numRep": 1612630
+    },
+    {
+      "name": "I Am Waiting",
+      "author": "The Rolling Stones",
+      "duration": "3:10",
+      "genres": [
+        "Rock",
+        "Heavy Metal"
+      ],
+      "isSingle": false,
+      "numRep": 3898177
+    },
+    {
+      "name": "Going Home",
+      "author": "The Rolling Stones",
+      "duration": "11:13",
+      "genres": [
+        "Rock",
+        "Heavy Metal"
+      ],
+      "isSingle": false,
+      "numRep": 1674217
+    },
+    {
+      "name": "Sun Ship",
+      "author": "John Coltrane",
+      "duration": "6:15",
+      "genres": [
+        "Jazz"
+      ],
+      "isSingle": false,
+      "numRep": 148782
+    },
+    {
+      "name": "Dearly Beloved",
+      "author": "John Coltrane",
+      "duration": "6:29",
+      "genres": [
+        "Jazz"
+      ],
+      "isSingle": false,
+      "numRep": 115834
+    },
+    {
+      "name": "Amen",
+      "author": "John Coltrane",
+      "duration": "8:20",
+      "genres": [
+        "Jazz"
+      ],
+      "isSingle": false,
+      "numRep": 103714
+    },
+    {
+      "name": "Attaining",
+      "author": "John Coltrane",
+      "duration": "11:24",
+      "genres": [
+        "Jazz"
+      ],
+      "isSingle": false,
+      "numRep": 75867
+    },
+    {
+      "name": "Ascent",
+      "author": "John Coltrane",
+      "duration": "10:04",
+      "genres": [
+        "Jazz"
+      ],
+      "isSingle": false,
+      "numRep": 68639
+    },
+    {
+      "name": "Do I Wanna Know?",
+      "author": "Artic Monkeys",
+      "duration": "4:32",
+      "genres": [
+        "Indie"
+      ],
+      "isSingle": false,
+      "numRep": 1294178938
+    },
+    {
+      "name": "R U Mine?",
+      "author": "Artic Monkeys",
+      "duration": "3:21",
+      "genres": [
+        "Indie"
+      ],
+      "isSingle": false,
+      "numRep": 614752561
+    },
+    {
+      "name": "One For The Road",
+      "author": "Artic Monkeys",
+      "duration": "3:26",
+      "genres": [
+        "Indie"
+      ],
+      "isSingle": false,
+      "numRep": 167704340
+    },
+    {
+      "name": "Arabella",
+      "author": "Artic Monkeys",
+      "duration": "3:27",
+      "genres": [
+        "Indie"
+      ],
+      "isSingle": false,
+      "numRep": 344336959
+    },
+    {
+      "name": "I Want It All",
+      "author": "Artic Monkeys",
+      "duration": "3:05",
+      "genres": [
+        "Indie"
+      ],
+      "isSingle": false,
+      "numRep": 94932450
+    },
+    {
+      "name": "No.1 Party Anthem",
+      "author": "Artic Monkeys",
+      "duration": "4:03",
+      "genres": [
+        "Indie"
+      ],
+      "isSingle": false,
+      "numRep": 140247469
+    },
+    {
+      "name": "Mad Sounds",
+      "author": "Artic Monkeys",
+      "duration": "3:35",
+      "genres": [
+        "Indie"
+      ],
+      "isSingle": false,
+      "numRep": 93969381
+    },
+    {
+      "name": "Fireside",
+      "author": "Artic Monkeys",
+      "duration": "3:01",
+      "genres": [
+        "Indie"
+      ],
+      "isSingle": false,
+      "numRep": 96085559
+    },
+    {
+      "name": "Whyd You Only Call Me When You're High?",
+      "author": "Artic Monkeys",
+      "duration": "2:41",
+      "genres": [
+        "Indie"
+      ],
+      "isSingle": false,
+      "numRep": 797381100
+    },
+    {
+      "name": "Snap Out Of It",
+      "author": "Artic Monkeys",
+      "duration": "3:13",
+      "genres": [
+        "Indie"
+      ],
+      "isSingle": false,
+      "numRep": 290186010
+    },
+    {
+      "name": "Knee Socks",
+      "author": "Artic Monkeys",
+      "duration": "4:17",
+      "genres": [
+        "Indie"
+      ],
+      "isSingle": false,
+      "numRep": 207755813
+    },
+    {
+      "name": "I Wanna Be Yours",
+      "author": "Artic Monkeys",
+      "duration": "3:03",
+      "genres": [
+        "Indie"
+      ],
+      "isSingle": false,
+      "numRep": 436289298
+    },
+    {
+      "name": "Trenchtown Rock",
+      "author": "Bob Marley",
+      "duration": "4:23",
+      "genres": [
+        "Reggae"
+      ],
+      "isSingle": false,
+      "numRep": 1956668
+    },
+    {
+      "name": "Burnin' and Lootin'",
+      "author": "Bob Marley",
+      "duration": "5:11",
+      "genres": [
+        "Reggae"
+      ],
+      "isSingle": false,
+      "numRep": 1117635
+    },
+    {
+      "name": "Them Belly Full",
+      "author": "Bob Marley",
+      "duration": "4:36",
+      "genres": [
+        "Reggae"
+      ],
+      "isSingle": false,
+      "numRep": 1132081
+    },
+    {
+      "name": "Lively Up Yourself",
+      "author": "Bob Marley",
+      "duration": "4:33",
+      "genres": [
+        "Reggae"
+      ],
+      "isSingle": false,
+      "numRep": 1203783
+    },
+    {
+      "name": "No Woman, No Cry",
+      "author": "Bob Marley",
+      "duration": "7:07",
+      "genres": [
+        "Reggae"
+      ],
+      "isSingle": false,
+      "numRep": 235166315
+    },
+    {
+      "name": "I Shot The Sheriff",
+      "author": "Bob Marley",
+      "duration": "5:18",
+      "genres": [
+        "Reggae"
+      ],
+      "isSingle": false,
+      "numRep": 3855175
+    },
+    {
+      "name": "Get Up, Stand Up",
+      "author": "Bob Marley",
+      "duration": "6:28",
+      "genres": [
+        "Reggae"
+      ],
+      "isSingle": false,
+      "numRep": 1697497
+    },
+    {
+      "name": "Kinky Reggae",
+      "author": "Bob Marley",
+      "duration": "7:35",
+      "genres": [
+        "Reggae"
+      ],
+      "isSingle": false,
+      "numRep": 988325
+    },
+    {
+      "name": "All Is Fair In Love and Brostep",
+      "author": "Skrillex",
+      "duration": "4:09",
+      "genres": [
+        "Electro"
+      ],
+      "isSingle": false,
+      "numRep": 35152975
+    },
+    {
+      "name": "Recess",
+      "author": "Skrillex",
+      "duration": "3:57",
+      "genres": [
+        "Electro"
+      ],
+      "isSingle": false,
+      "numRep": 107628928
+    },
+    {
+      "name": "Stranger",
+      "author": "Skrillex",
+      "duration": "4:49",
+      "genres": [
+        "Electro"
+      ],
+      "isSingle": false,
+      "numRep": 25673560
+    },
+    {
+      "name": "Try It Out",
+      "author": "Skrillex",
+      "duration": "3:49",
+      "genres": [
+        "Electro"
+      ],
+      "isSingle": false,
+      "numRep": 49722837
+    },
+    {
+      "name": "Coast Is Clear",
+      "author": "Skrillex",
+      "duration": "4:03",
+      "genres": [
+        "Electro"
+      ],
+      "isSingle": false,
+      "numRep": 16835477
+    },
+    {
+      "name": "Dirty Vibe",
+      "author": "Skrillex",
+      "duration": "3:26",
+      "genres": [
+        "Electro"
+      ],
+      "isSingle": false,
+      "numRep": 33277144
+    },
+    {
+      "name": "Raggabomb",
+      "author": "Skrillex",
+      "duration": "4:18",
+      "genres": [
+        "Electro"
+      ],
+      "isSingle": false,
+      "numRep": 44187187
+    },
+    {
+      "name": "Doompy Poomp",
+      "author": "Skrillex",
+      "duration": "3:25",
+      "genres": [
+        "Electro"
+      ],
+      "isSingle": false,
+      "numRep": 10609619
+    },
+    {
+      "name": "Fuck That",
+      "author": "Skrillex",
+      "duration": "3:52",
+      "genres": [
+        "Electro"
+      ],
+      "isSingle": false,
+      "numRep": 16044735
+    },
+    {
+      "name": "Ease My Mind",
+      "author": "Skrillex",
+      "duration": "5:02",
+      "genres": [
+        "Electro"
+      ],
+      "isSingle": false,
+      "numRep": 36618895
+    },
+    {
+      "name": "Fire Away",
+      "author": "Skrillex",
+      "duration": "5:41",
+      "genres": [
+        "Electro"
+      ],
+      "isSingle": false,
+      "numRep": 13637125
+    },
+    {
+      "name": "I'm Leaving Now",
+      "author": "Johnny Cash",
+      "duration": "2:16",
+      "genres": [
+        "Country"
+      ],
+      "isSingle": false,
+      "numRep": 165828
+    },
+    {
+      "name": "Here Comes That Rainbow Again",
+      "author": "Johnny Cash",
+      "duration": "2:49",
+      "genres": [
+        "Country"
+      ],
+      "isSingle": false,
+      "numRep": 110965
+    },
+    {
+      "name": "They're All The Same",
+      "author": "Johnny Cash",
+      "duration": "3:09",
+      "genres": [
+        "Country"
+      ],
+      "isSingle": false,
+      "numRep": 55109
+    },
+    {
+      "name": "Easy Street",
+      "author": "Johnny Cash",
+      "duration": "2:46",
+      "genres": [
+        "Country"
+      ],
+      "isSingle": false,
+      "numRep": 46174
+    },
+    {
+      "name": "Have You Ever Seen The Rain",
+      "author": "Johnny Cash",
+      "duration": "2:30",
+      "genres": [
+        "Country"
+      ],
+      "isSingle": false,
+      "numRep": 438444
+    },
+    {
+      "name": "You Beat All I Ever Saw",
+      "author": "Johnny Cash",
+      "duration": "2:56",
+      "genres": [
+        "Country"
+      ],
+      "isSingle": false,
+      "numRep": 45224
+    },
+    {
+      "name": "Unwed Fathers",
+      "author": "Johnny Cash",
+      "duration": "3:13",
+      "genres": [
+        "Country"
+      ],
+      "isSingle": false,
+      "numRep": 62387
+    },
+    {
+      "name": "Love Me Like You Used To",
+      "author": "Johnny Cash",
+      "duration": "2:42",
+      "genres": [
+        "Country"
+      ],
+      "isSingle": false,
+      "numRep": 54102
+    },
+    {
+      "name": "Casey's Last Ride",
+      "author": "Johnny Cash",
+      "duration": "3:19",
+      "genres": [
+        "Country"
+      ],
+      "isSingle": false,
+      "numRep": 67193
+    },
+    {
+      "name": "Borderline",
+      "author": "Johnny Cash",
+      "duration": "2:59",
+      "genres": [
+        "Country"
+      ],
+      "isSingle": false,
+      "numRep": 48393
+    },
+    {
+      "name": "How You Like That",
+      "author": "Blackpink",
+      "duration": "3:02",
+      "genres": [
+        "KPOP"
+      ],
+      "isSingle": false,
+      "numRep": 605864888
+    },
+    {
+      "name": "Ice Cream",
+      "author": "Blackpink",
+      "duration": "2:57",
+      "genres": [
+        "KPOP"
+      ],
+      "isSingle": false,
+      "numRep": 408673491
+    },
+    {
+      "name": "Pretty Savage",
+      "author": "Blackpink",
+      "duration": "3:21",
+      "genres": [
+        "KPOP"
+      ],
+      "isSingle": false,
+      "numRep": 229225729
+    },
+    {
+      "name": "Bet You Wanna",
+      "author": "Blackpink",
+      "duration": "2:41",
+      "genres": [
+        "KPOP"
+      ],
+      "isSingle": false,
+      "numRep": 136593529
+    },
+    {
+      "name": "Lovesick Girls",
+      "author": "Blackpink",
+      "duration": "3:14",
+      "genres": [
+        "KPOP"
+      ],
+      "isSingle": false,
+      "numRep": 323866065
+    },
+    {
+      "name": "Crazy Over You",
+      "author": "Blackpink",
+      "duration": "2:43",
+      "genres": [
+        "KPOP"
+      ],
+      "isSingle": false,
+      "numRep": 119879579
+    },
+    {
+      "name": "Love To Hate Me",
+      "author": "Blackpink",
+      "duration": "2:51",
+      "genres": [
+        "KPOP"
+      ],
+      "isSingle": false,
+      "numRep": 138009042
+    },
+    {
+      "name": "You Never Know",
+      "author": "Blackpink",
+      "duration": "3:51",
+      "genres": [
+        "KPOP"
+      ],
+      "isSingle": false,
+      "numRep": 99302936
+    }
+  ],
+  "playlists": [
+    {
+      "name": "Rolitas Chidas",
+      "songs": [
+        "White America",
+        "Girlfriend",
+        "The End",
+        "Because",
+        "Fire Away",
+        "Borderline",
+        "Rock With You",
+        "Soldier",
+        "Money",
+        "Easy Street",
+        "Fuck That",
+        "R U Mine?",
+        "Superman",
+        "Without Me",
+        "Get On the Floor",
+        "Mad Sounds",
+        "Crazy Over You"
+      ],
+      "duration": "01:05:46",
+      "genres": [
+        "Rap",
+        "Pop",
+        "Rock",
+        "Electro",
+        "Country",
+        "KPOP",
+        "Indie"
+      ],
+      "creator": "System"
+    },
+    {
+      "name": "Perfect",
+      "songs": [
+        "I Want You",
+        "Her Majesty",
+        "Lady Jane",
+        "Knee Socks",
+        "Raggabomb",
+        "Love To Hate Me",
+        "Gone",
+        "Arabella",
+        "No Woman, No Cry",
+        "Try It Out",
+        "I'm Leaving Now",
+        "One Love",
+        "Them Belly Full",
+        "Stranger",
+        "Ascent",
+        "Amen",
+        "Drips",
+        "Business"
+      ],
+      "duration": "01:23:12",
+      "genres": [
+        "Rock",
+        "Heavy Metal",
+        "Indie",
+        "Electro",
+        "KPOP",
+        "Reggae",
+        "Country",
+        "Jazz",
+        "Rap"
+      ],
+      "creator": "System"
+    },
+    {
+      "name": "Chillin in the goth club from the matrix",
+      "songs": [
+        "You Never Know",
+        "I Want It All",
+        "Sun Ship",
+        "Square Dance",
+        "Sun King",
+        "Oh! Darling",
+        "Dirty Vibe",
+        "How You Like That",
+        "René",
+        "Curtains Close",
+        "Going Home",
+        "Snap Out Of It",
+        "No.1 Party Anthem",
+        "Ease My Mind",
+        "Pretty Savage",
+        "El Gordo Que La Pisa Bien"
+      ],
+      "duration": "01:11:13",
+      "genres": [
+        "KPOP",
+        "Indie",
+        "Jazz",
+        "Rap",
+        "Rock",
+        "Electro",
+        "Heavy Metal",
+        "Indie"
+      ],
+      "creator": "System"
+    }
+  ]
+}

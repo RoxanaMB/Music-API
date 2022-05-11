@@ -1,0 +1,27 @@
+{
+  "entryPoints": [
+    "./src/P07_BibliotecaMusical/Album/Album.ts",
+    "./src/P07_BibliotecaMusical/Album/AlbumManage.ts",
+    "./src/P07_BibliotecaMusical/Album/Manage.ts",
+    "./src/P07_BibliotecaMusical/Artist/Artist.ts",
+    "./src/P07_BibliotecaMusical/Artist/ArtistManage.ts",
+    "./src/P07_BibliotecaMusical/Artist/Manage.ts",
+    "./src/P07_BibliotecaMusical/DB/DB.ts",
+    "./src/P07_BibliotecaMusical/Group/Group.ts",
+    "./src/P07_BibliotecaMusical/Group/GroupManage.ts",
+    "./src/P07_BibliotecaMusical/Group/Manage.ts",
+    "./src/P07_BibliotecaMusical/Manager/Manager.ts",
+    "./src/P07_BibliotecaMusical/MusicalGenres/MusicalGenres.ts",
+    "./src/P07_BibliotecaMusical/MusicalGenres/MusicalGenresManage.ts",
+    "./src/P07_BibliotecaMusical/MusicalGenres/Manage.ts",
+    "./src/P07_BibliotecaMusical/Nameable/Nameable.ts",
+    "./src/P07_BibliotecaMusical/Playlist/Playlist.ts",
+    "./src/P07_BibliotecaMusical/Playlist/PlaylistManage.ts",
+    "./src/P07_BibliotecaMusical/Playlist/Manage.ts",
+    "./src/P07_BibliotecaMusical/Song/Song.ts",
+    "./src/P07_BibliotecaMusical/Song/SongManage.ts",
+    "./src/P07_BibliotecaMusical/Song/Manage.ts",
+    "./src/P07_BibliotecaMusical/UI/UI.ts"
+  ],
+  "out": "./docs"
+}
