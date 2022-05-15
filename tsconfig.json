@@ -10,6 +10,9 @@
     "declaration": true,
     "outDir": "./dist",
     "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true
