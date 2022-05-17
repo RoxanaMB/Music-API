@@ -1,8 +1,10 @@
-import {connect} from 'mongoose';
+import {connect, connection} from 'mongoose';
+// import {MongoClient} from 'mongodb';
+// import {ArtistInterface} from '../models/artist';
 
 console.log('Connecting to MongoDB...');
 
-const databaseURL = 'mongodb://127.0.0.1:27017/dsi-12';
+const databaseURL = process.env.MONGODB_URL || 'mongodb://127.0.0.1:27017/app';
 
 connect(databaseURL, {
   useNewUrlParser: true,
@@ -14,5 +16,6 @@ connect(databaseURL, {
 }).catch((err) => {
   // console.log('Unnable to connect to MongoDB server');
   console.log(err);
+  connection.close();
 });
 

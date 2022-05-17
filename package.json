@@ -5,15 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
+    "heroku": "tsc",
     "coverage": "nyc npm test",
     "coveralls": "nyc npm test && nyc report --reporter=lcov",
-    "start": "tsc && node dist/db/mongoose.js",
+    "start": "tsc && node dist/management.js",
     "doc": "typedoc",
     "make": "node ./dist/*.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ULL-ESIT-INF-DSI-2122/ull-esit-inf-dsi-21-22-prct12-music-api-grupo_g.git"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "keywords": [],
   "author": "",
