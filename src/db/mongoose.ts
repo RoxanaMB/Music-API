@@ -19,4 +19,3 @@ connect(databaseURL, {
   console.log(err);
   connection.close();
 });
-
