@@ -14,6 +14,7 @@ connect(databaseURL, {
   useFindAndModify: false,
 }).then(() => {
   console.log('Connection to MongoDB server established');
+  console.log(databaseURL);
 }).catch((err) => {
   console.log(err);
   connection.close();
