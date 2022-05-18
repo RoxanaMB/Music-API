@@ -89,5 +89,3 @@ deleteRouter.delete('/playlist', async (req, res) => {
     return res.status(400).send();
   }
 });
-
-// URL: cri cri  https://still-escarpment-98797.herokuapp.com/
