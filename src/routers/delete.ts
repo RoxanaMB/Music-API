@@ -1,4 +1,4 @@
-nimport * as express from 'express';
+import * as express from 'express';
 import {Artist} from '../models/artist';
 import {Song} from '../models/song';
 import {Playlist} from '../models/playlist';
