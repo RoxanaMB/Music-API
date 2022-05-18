@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "heroku": "tsc",
+    "heroku-postbuild": "tsc",
     "coverage": "nyc npm test",
     "coveralls": "nyc npm test && nyc report --reporter=lcov",
-    "start": "tsc && node dist/management.js",
+    "start": "node dist/management.js",
     "doc": "typedoc",
     "make": "node ./dist/*.js"
   },
