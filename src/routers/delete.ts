@@ -4,7 +4,7 @@ import {Artist} from '../models/artist';
 // eslint-disable-next-line new-cap
 export const deleteRouter = express.Router();
 
-// Fatla?: Petición especificando un título de nota no existente.
+// Falta?: Petición especificando un título de nota no existente.
 deleteRouter.delete('/artist', async (req, res) => {
   if (!req.query.name) {
     res.status(400).send({
