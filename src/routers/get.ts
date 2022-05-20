@@ -8,6 +8,9 @@ export const getRouter = express.Router();
 
 getRouter.get('/artist', async (req, res) => {
   try {
+    if (!req.query.name?.toString()) {
+      res.status(400).send();
+    }
     const filter = req.query.name?{name: req.query.name.toString()}:{};
     const artist = await Artist.find(filter);
 
@@ -23,6 +26,9 @@ getRouter.get('/artist', async (req, res) => {
 
 getRouter.get('/artist/:id', async (req, res) => {
   try {
+    if (!req.params.id?.toString()) {
+      res.status(400).send();
+    }
     const artist = await Artist.findById(req.params.id);
 
     if (!artist) {
@@ -37,7 +43,10 @@ getRouter.get('/artist/:id', async (req, res) => {
 // Song
 getRouter.get('/song', async (req, res) => {
   try {
-    const filter = req.query.title?{title: req.query.title.toString()}:{};
+    if (!req.query.name?.toString()) {
+      res.status(400).send();
+    }
+    const filter = {name: req.query.name?.toString()};
     const song = await Song.find(filter).populate('author');
 
     if (song.length !== 0) {
@@ -51,6 +60,9 @@ getRouter.get('/song', async (req, res) => {
 
 getRouter.get('/song/:id', async (req, res) => {
   try {
+    if (!req.params.id?.toString()) {
+      res.status(400).send();
+    }
     const song = await Song.findById(req.params.id).populate('author');
 
     if (!song) {
@@ -65,7 +77,10 @@ getRouter.get('/song/:id', async (req, res) => {
 // Playlist
 getRouter.get('/playlist', async (req, res) => {
   try {
-    const filter = req.query.title?{title: req.query.title.toString()}:{};
+    if (!req.query.name?.toString()) {
+      res.status(400).send();
+    }
+    const filter = req.query.name?{name: req.query.name.toString()}:{};
     const playlist = await Playlist.find(filter).populate('songs');
 
     if (playlist.length !== 0) {
@@ -80,6 +95,9 @@ getRouter.get('/playlist', async (req, res) => {
 
 getRouter.get('/playlist/:id', async (req, res) => {
   try {
+    if (!req.params.id?.toString()) {
+      res.status(400).send();
+    }
     const playlist = await Playlist.findById(req.params.id).populate('songs');
 
     if (!playlist) {
