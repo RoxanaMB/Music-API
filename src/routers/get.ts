@@ -42,14 +42,13 @@ getRouter.get('/artist/:id', async (req, res) => {
 
 // Song
 getRouter.get('/song', async (req, res) => {
-  const filter = req.query.title?{title: req.query.title.toString()}:{};
   try {
-    const song = await Song.find(filter);
+    const filter = req.query.title?{title: req.query.title.toString()}:{};
+    const song = await Song.find(filter).populate('author');
 
     if (song.length !== 0) {
       return res.send(song);
     }
-
     return res.status(404).send();
   } catch (error) {
     return res.status(500).send();
