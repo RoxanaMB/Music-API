@@ -19,24 +19,23 @@ export const patchRouter = express.Router();
  *  cuerpo cuyas propiedades y valores a actualizar sean válidos.
  */
 patchRouter.patch('/artist', async (req, res) => {
-  if (!req.query.name) {
-    return res.status(400).send({
-      error: 'A name must be provided',
-    });
-  }
-
-  const allowedUpdates = ['name', 'songs', 'monthlyListeners'];
-  const actualUpdates = Object.keys(req.body);
-  const isValidUpdate =
-    actualUpdates.every((update) => allowedUpdates.includes(update));
-
-  if (!isValidUpdate) {
-    return res.status(400).send({
-      error: 'Update is not permitted',
-    });
-  }
-
   try {
+    if (!req.query.name) {
+      return res.status(400).send({
+        error: 'A name must be provided',
+      });
+    }
+
+    const allowedUpdates = ['name', 'songs', 'monthlyListeners'];
+    const actualUpdates = Object.keys(req.body);
+    const isValidUpdate =
+      actualUpdates.every((update) => allowedUpdates.includes(update));
+
+    if (!isValidUpdate) {
+      return res.status(400).send({
+        error: 'Update is not permitted',
+      });
+    }
     const artist =
     await Artist.findOneAndUpdate(
         {name: req.query.name?.toString()}, req.body, {
@@ -55,18 +54,17 @@ patchRouter.patch('/artist', async (req, res) => {
 });
 
 patchRouter.patch('/artist/:id', async (req, res) => {
-  const allowedUpdates = ['name', 'songs', 'monthlyListeners'];
-  const actualUpdates = Object.keys(req.body);
-  const isValidUpdate =
-      actualUpdates.every((update) => allowedUpdates.includes(update));
-
-  if (!isValidUpdate) {
-    return res.status(400).send({
-      error: 'Update is not permitted',
-    });
-  }
-
   try {
+    const allowedUpdates = ['name', 'songs', 'monthlyListeners'];
+    const actualUpdates = Object.keys(req.body);
+    const isValidUpdate =
+        actualUpdates.every((update) => allowedUpdates.includes(update));
+
+    if (!isValidUpdate) {
+      return res.status(400).send({
+        error: 'Update is not permitted',
+      });
+    }
     const artist = await Artist.findByIdAndUpdate(req.params.id, req.body, {
       new: true,
       runValidators: true,
@@ -84,24 +82,23 @@ patchRouter.patch('/artist/:id', async (req, res) => {
 
 // Song
 patchRouter.patch('/song', async (req, res) => {
-  if (!req.query.title) {
-    return res.status(400).send({
-      error: 'A title must be provided',
-    });
-  }
-
-  const allowedUpdates = ['title', 'artist', 'album', 'genre', 'duration'];
-  const actualUpdates = Object.keys(req.body);
-  const isValidUpdate =
-      actualUpdates.every((update) => allowedUpdates.includes(update));
-
-  if (!isValidUpdate) {
-    return res.status(400).send({
-      error: 'Update is not permitted',
-    });
-  }
-
   try {
+    if (!req.query.title) {
+      return res.status(400).send({
+        error: 'A title must be provided',
+      });
+    }
+
+    const allowedUpdates = ['title', 'artist', 'album', 'genre', 'duration'];
+    const actualUpdates = Object.keys(req.body);
+    const isValidUpdate =
+        actualUpdates.every((update) => allowedUpdates.includes(update));
+
+    if (!isValidUpdate) {
+      return res.status(400).send({
+        error: 'Update is not permitted',
+      });
+    }
     const song = await Song.findOneAndUpdate(
         {title: req.query.title?.toString()}, req.body, {
           new: true,
@@ -119,18 +116,17 @@ patchRouter.patch('/song', async (req, res) => {
 });
 
 patchRouter.patch('/song/:id', async (req, res) => {
-  const allowedUpdates = ['title', 'artist', 'album', 'genre', 'duration'];
-  const actualUpdates = Object.keys(req.body);
-  const isValidUpdate =
-      actualUpdates.every((update) => allowedUpdates.includes(update));
-
-  if (!isValidUpdate) {
-    return res.status(400).send({
-      error: 'Update is not permitted',
-    });
-  }
-
   try {
+    const allowedUpdates = ['title', 'artist', 'album', 'genre', 'duration'];
+    const actualUpdates = Object.keys(req.body);
+    const isValidUpdate =
+        actualUpdates.every((update) => allowedUpdates.includes(update));
+
+    if (!isValidUpdate) {
+      return res.status(400).send({
+        error: 'Update is not permitted',
+      });
+    }
     const song = await Song.findByIdAndUpdate(req.params.id, req.body, {
       new: true,
       runValidators: true,
@@ -148,24 +144,23 @@ patchRouter.patch('/song/:id', async (req, res) => {
 
 // Playlist
 patchRouter.patch('/playlist', async (req, res) => {
-  if (!req.query.title) {
-    return res.status(400).send({
-      error: 'A title must be provided',
-    });
-  }
-
-  const allowedUpdates = ['title', 'songs'];
-  const actualUpdates = Object.keys(req.body);
-  const isValidUpdate =
-      actualUpdates.every((update) => allowedUpdates.includes(update));
-
-  if (!isValidUpdate) {
-    return res.status(400).send({
-      error: 'Update is not permitted',
-    });
-  }
-
   try {
+    if (!req.query.title) {
+      return res.status(400).send({
+        error: 'A title must be provided',
+      });
+    }
+
+    const allowedUpdates = ['title', 'songs'];
+    const actualUpdates = Object.keys(req.body);
+    const isValidUpdate =
+        actualUpdates.every((update) => allowedUpdates.includes(update));
+
+    if (!isValidUpdate) {
+      return res.status(400).send({
+        error: 'Update is not permitted',
+      });
+    }
     const playlist = await Playlist.findOneAndUpdate(
         {title: req.query.title?.toString()}, req.body, {
           new: true,
@@ -183,18 +178,17 @@ patchRouter.patch('/playlist', async (req, res) => {
 });
 
 patchRouter.patch('/playlist/:id', async (req, res) => {
-  const allowedUpdates = ['title', 'songs'];
-  const actualUpdates = Object.keys(req.body);
-  const isValidUpdate =
-      actualUpdates.every((update) => allowedUpdates.includes(update));
-
-  if (!isValidUpdate) {
-    return res.status(400).send({
-      error: 'Update is not permitted',
-    });
-  }
-
   try {
+    const allowedUpdates = ['title', 'songs'];
+    const actualUpdates = Object.keys(req.body);
+    const isValidUpdate =
+        actualUpdates.every((update) => allowedUpdates.includes(update));
+
+    if (!isValidUpdate) {
+      return res.status(400).send({
+        error: 'Update is not permitted',
+      });
+    }
     const playlist = await Playlist.findByIdAndUpdate(req.params.id, req.body, {
       new: true,
       runValidators: true,

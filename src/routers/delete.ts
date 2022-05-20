@@ -6,14 +6,7 @@ import {Playlist} from '../models/playlist';
 // eslint-disable-next-line new-cap
 export const deleteRouter = express.Router();
 
-// Falta?: Petición especificando un título de nota no existente.
 deleteRouter.delete('/artist', async (req, res) => {
-  if (!req.query.name) {
-    res.status(400).send({
-      error: 'A name must be provided',
-    });
-  }
-
   try {
     const artistDelete =
         await Artist.findOneAndDelete({name: req.query.name?.toString()});
@@ -40,15 +33,9 @@ deleteRouter.delete('/artist/:id', async (req, res) => {
 
 // Song
 deleteRouter.delete('/song', async (req, res) => {
-  if (!req.query.title) {
-    res.status(400).send({
-      error: 'A title must be provided',
-    });
-  }
-
   try {
-    // eslint-disable-next-line max-len
-    const songDelete = await Song.findOneAndDelete({name: req.query.name?.toString()});
+    const songDelete = await Song.findOneAndDelete({name: req.query.name?.
+        toString()});
     if (!songDelete) {
       return res.status(404).send();
     }
@@ -72,12 +59,6 @@ deleteRouter.delete('/song/:id', async (req, res) => {
 
 // Playlist
 deleteRouter.delete('/playlist', async (req, res) => {
-  if (!req.query.name) {
-    res.status(400).send({
-      error: 'A name must be provided',
-    });
-  }
-
   try {
     const playlistDelete =
         await Playlist.findOneAndDelete({name: req.query.name?.toString()});
