@@ -8,19 +8,7 @@ export const postRouter = express.Router();
 
 postRouter.post('/artist', async (req, res) => {
   const artist = new Artist(req.body);
-  const nameOfBody = req.body.name.toString();
-  const filter = req.body.name?{name: artist.name.toString()}:{};
-  const findName = Artist.find(filter);
   let nameFound = false;
-  findName.then((found) => {
-    found.forEach((element) => {
-      if (element.name === nameOfBody) {
-        nameFound = true;
-      }
-    });
-  }).catch((err) => {
-    console.log(err);
-  });
 
   try {
     await artist.save();

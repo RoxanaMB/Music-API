@@ -16,9 +16,10 @@ const PlaylistSchema = new Schema<PlaylistInterface>({
     unique: true,
   },
   songs: {
-    type: [String],
+    type: [Schema.Types.ObjectId],
     required: false,
     trim: true,
+    ref: 'Song',
   },
   duration: {
     type: String,

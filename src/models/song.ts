@@ -1,9 +1,10 @@
 import {Document, model} from 'mongoose';
+
 import {Schema} from 'mongoose';
 
 interface SongInterface extends Document {
   title: string,
-  author: string,
+  artist: string,
   duration: string,
   genre: string,
   single: boolean,
@@ -15,11 +16,12 @@ const SongSchema = new Schema<SongInterface>({
     type: String,
     required: true,
     trim: true,
+    unique: true,
   },
   author: {
-    type: String,
+    type: Schema.Types.ObjectId,
     required: true,
-    trim: true,
+    ref: 'Artist',
   },
   duration: {
     type: String,
