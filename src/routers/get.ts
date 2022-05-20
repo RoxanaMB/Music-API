@@ -66,7 +66,7 @@ getRouter.get('/song/:id', async (req, res) => {
 getRouter.get('/playlist', async (req, res) => {
   try {
     const filter = req.query.title?{title: req.query.title.toString()}:{};
-    const playlist = await Playlist.find(filter);
+    const playlist = await Playlist.find(filter).populate('songs');
 
     if (playlist.length !== 0) {
       return res.send(playlist);
@@ -80,7 +80,7 @@ getRouter.get('/playlist', async (req, res) => {
 
 getRouter.get('/playlist/:id', async (req, res) => {
   try {
-    const playlist = await Playlist.findById(req.params.id);
+    const playlist = await Playlist.findById(req.params.id).populate('songs');
 
     if (!playlist) {
       return res.status(404).send();
