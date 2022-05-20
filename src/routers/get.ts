@@ -58,7 +58,7 @@ getRouter.get('/song', async (req, res) => {
 
 getRouter.get('/song/:id', async (req, res) => {
   try {
-    const song = await Song.findById(req.params.id);
+    const song = await Song.findById(req.params.id).populate('author');
 
     if (!song) {
       return res.status(404).send();
