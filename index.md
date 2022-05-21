@@ -17,10 +17,10 @@ En esta práctica se tendrá que crear un **API REST**, haciendo uso de **Node**
 
 El sistema de información deberá permitir la gestión de las canciones, los artistas y las playlists. Además, el sistema deberá permitir que el usuario interactúe con la API para realizar las operaciones **CRUD** con cada uno de los elementos nombrados anteriormente: 
 
-  * Creación - Crear una nueva canción, artista o playlist **([C]reate)**.
-  * Lectura - Leer una canción, artista o playlist **([R]ead)**.
-  * Modificación - Modificar una canción, artista o playlist **([U]pdate)**.
-  * Borrado - Borrar una canción, artista o playlist **([D]elete)**.
+  * **Creación**: Crear una nueva canción, artista o playlist - **[C]reate**.
+  * **Lectura**: Leer una canción, artista o playlist - **[R]ead**.
+  * **Modificación**: Modificar una canción, artista o playlist - **[U]pdate**.
+  * **Borrado**: Borrar una canción, artista o playlist - **[D]elete**.
 
 Además, en esta práctica, para reemplazar el uso del paquete **LowDB** y hacer persistente la información guardada, se hará uso de **MongoDB Atlas** como sistema de base de datos no relacional y de Mongoose, para poder gestionar la base de datos comentada anteriormente desde **Node.js**.
 
