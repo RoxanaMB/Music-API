@@ -58,7 +58,12 @@ patchRouter.patch('/artist/:id', async (req, res) => {
           new: true,
           runValidators: true,
         });
-    const artist = await artistUpdate.save() as Artist;
+    let artist = undefined;
+    if (!artistUpdate) {
+      return res.status(404).send();
+    } else {
+      artist = await artistUpdate.save();
+    }
 
     if (!artist) {
       return res.status(404).send();
