@@ -6,18 +6,6 @@ import {Playlist} from '../models/playlist';
 // eslint-disable-next-line new-cap
 export const patchRouter = express.Router();
 
-/**
- * ToDo:
- * Petición sin especificar una query string con el título de la nota.
- * Petición especificando un título de nota no existente.
- * Petición especificando un título de una nota existente, con un
- *  cuerpo donde se incluya una propiedad a actualizar no válida.
- * Petición especificando un título de una nota existente, con un
- *  cuerpo donde se incluyan propiedades a actualizar válidas,
- *  pero con valores no válidos.
- * Petición especificando un título de una nota existente y un
- *  cuerpo cuyas propiedades y valores a actualizar sean válidos.
- */
 patchRouter.patch('/artist', async (req, res) => {
   try {
     if (!req.query.name) {
@@ -65,10 +53,15 @@ patchRouter.patch('/artist/:id', async (req, res) => {
         error: 'Update is not permitted',
       });
     }
-    const artist = await Artist.findByIdAndUpdate(req.params.id, req.body, {
-      new: true,
-      runValidators: true,
-    });
+    // const artist = await Artist.findByIdAndUpdate(req.params.id, req.body, {
+    //   new: true,
+    //   runValidators: true,
+    // });
+    const artist = await Artist.findOneAndUpdate(
+        {_id: req.params.id}, req.body, {
+          new: true,
+          runValidators: true,
+        });
 
     if (!artist) {
       return res.status(404).send();
