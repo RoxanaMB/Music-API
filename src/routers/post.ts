@@ -9,7 +9,7 @@ import {Song} from '../models/song';
 export const postRouter = express.Router();
 
 /**
- * Post an artist to the database. 
+ * Post an artist to the database.
  */
 postRouter.post('/artist', async (req, res) => {
   try {

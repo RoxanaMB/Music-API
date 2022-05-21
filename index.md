@@ -50,7 +50,223 @@ Dana
 ## DELETE <a name="id7"></a>
 Dana
 # FUNCIONAMIENTO <a name="id8"></a>
-Daniele
+En cuánto al funcionamiento de la API, es necesario que se pueda realizar una serie de pruebas para comprobar que todo funciona correctamente. Para ello hacemos uso de la herramienta [Thunder Clients](https://thunder-clients.herokuapp.com/), que nos permite realizar las pruebas de la API. 
+
+![tests general]()
+
+En la imagen anterior se puede observar que por cada operación que realizamos, se realiza una petición a la API, y se comprueba que la respuesta es la esperada en base al estado de la operación (2xx, 4xx, 5xx). Se necesita la URL conectada con **Heroku**, para poder realizar las pruebas.
+
+Empezando por la operaciones de **POST**, se realizaron pruebas con body para poder crear artistas, canciones y playlists.
+
+![testPostQuery1]()
+
+Tomando como ejemplo correcto la creación de un artista, en este caso Rad Museum, se realiza una petición POST a la API, con el siguiente body:
+
+```JSON
+{
+    "name": "Rad Museum",
+    "genre": ["RB", "Hip hop"],
+    "songs": ["Over The Fence", "Dancing In The Rain", "Off-Line", "Tiny Little Boy"],
+    "monthlyListeners": 543012
+}
+```
+
+En este caso la petición se realiza correctamente ya que la base de datos nos devuelve un status 200 y todos los requisitos necesarios para poder crear un artista son cumplidos. Se obtiene un resultado en el cual se muestra el nombre del artista, el género, las canciones y el número de años de escucha. Además, se muestra el id del artista, ya que se ha creado en la base de datos.
+
+```JSON
+{
+  "genre": [
+    "RB",
+    "Hip hop"
+  ],
+  "songs": [
+    "Over The Fence",
+    "Dancing In The Rain",
+    "Off-Line",
+    "Tiny Little Boy"
+  ],
+  "monthlyListeners": 543012,
+  "_id": "6289673fd9fd4f0016f60fef",
+  "name": "Rad Museum",
+  "__v": 0
+}
+
+```
+
+Un ejemplo incorrecto, tomando como ejemplo una canción como **Over the fence** sería insertar un body como el siguiente:
+
+```JSON
+{
+    "author": "6288f13e11e5e100166d2dad",
+    "duration": "3:23",
+    "single": true,
+    "reproductions": 17291555
+}
+```
+
+En este caso el body sería incorrecto ya que no cumple con los requisitos para poder crear una canción. Por ejemplo, no se puede insertar una canción sin nombre, ya que es un campo obligatorio. El status de la petición sería 400, ya que no se ha cumplido con los requisitos. El resultado sería un error de la API, ya que no se ha podido crear la canción.
+
+```JSON
+{
+  "errors": {
+    "genre": {
+      "name": "ValidatorError",
+      "message": "Path `genre` is required.",
+      "properties": {
+        "message": "Path `genre` is required.",
+        "type": "required",
+        "path": "genre"
+      },
+      "kind": "required",
+      "path": "genre"
+    },
+    "title": {
+      "name": "ValidatorError",
+      "message": "Path `title` is required.",
+      "properties": {
+        "message": "Path `title` is required.",
+        "type": "required",
+        "path": "title"
+      },
+      "kind": "required",
+      "path": "title"
+    }
+  },
+  "_message": "Song validation failed",
+  "name": "ValidationError",
+  "message": "Song validation failed: genre: Path `genre` is required., title: Path `title` is required."
+}
+
+```
+
+Pasamos a realizar una petición **GET** a la API, para comprobar que la base de datos está funcionando correctamente. Para este tipo de operaciones se realiza según: query o id.
+
+Un ejemplo correcto para una canción como se puede observar en la siguiente imagen, es hacer uso del id de **Smooth Criminal**:
+
+![testGetSmoothCriminal]()
+
+En este caso es un uso correcto porque se ha realizado una petición GET a la API, con el id de la canción **Smooth Criminal** creada. Se obtiene un resultado en el cual se muestra el nombre de la canción, el nombre del artista, la duración, si es un single o no, el número de reproducciones y el id de la canción.
+
+```JSON
+{
+  "reproductions": 81928292,
+  "_id": "6288fab811e5e100166d3006",
+  "title": "Smooth Criminal",
+  "author": {
+    "genre": [
+      "Pop",
+      "RB",
+      "Soul"
+    ],
+    "songs": [
+      "Smooth Criminal"
+    ],
+    "monthlyListeners": 28761197,
+    "_id": "6288db739921fb00163ca142",
+    "name": "Michael Jackson",
+    "__v": 0
+  },
+  "duration": "5:12",
+  "genre": "Pop",
+  "single": true,
+  "__v": 0
+}
+
+```
+
+Por otro lado, un ejemplo incorrecto para una canción como se puede observar en la siguiente imagen, es hacer uso del id de **Smooth Criminal** poniendo la ruta equivocada, por lo que devolverá un error 500.
+
+![testGetSmoothCriminalidEquivocado]()
+
+
+Un uso correcto de la operación **GET** con query, es hacer uso de la ruta '/artist', '/song', '/playlist'  y añadir parametros según lo que se quiera obtener en la pestaña 'Query'.
+
+![testGetQuerycorrecto]()
+
+Un uso incorrecto sería no rellanar algún parámetro, por ejemplo no rellenar el parámetro **genre**, por lo que devolverá un error 500.
+
+
+
+En cuánto al uso de la operación **PATCH**, igual que la operación **GET**, se realiza según: query o id.
+
+Un ejemplo correcto para un artista según el ID de **Michael Jackson**, es hacer uso de la ruta '/artist' y añadir el id de **Michael Jackson**:
+
+![testPatchMichaelJackson]()
+
+En este caso el uso es correcto, ya que todos los datos modificados son correctos. Se obtiene un resultado en el cual se muestra el nombre del artista, el género, las canciones y el número de años de escucha. Además, se muestra el id del artista, ya que se ha modificado en la base de datos. En este caso, se cambia el nombre a **Mike Jake**.
+
+```JSON
+{
+  "genre": [
+    "Pop",
+    "RB",
+    "Soul"
+  ],
+  "songs": [
+    "Smooth Criminal"
+  ],
+  "monthlyListeners": 28761197,
+  "_id": "6288db739921fb00163ca142",
+  "name": "Micky Jake",
+  "__v": 0
+}
+
+```
+
+Y un ejemplo incorrecto sería intentar cambiar el género de **Michael Jackson**, por lo que devolverá un error 500.
+
+```JSON
+{
+  "error": "Update is not permitted"
+}
+```
+
+En el caso de hacer la petición con query de una playlist, por ejemplo, se hace uso de la ruta '/playlist' y sin añadir el id de la playlist:
+
+![testPatchPlaylist]()
+
+Mientras que en el body tedríamos lo siguiente:
+
+```JSON
+{
+    "name": "Canciones"
+}
+```
+
+La petición sería correcta ya que se ha modificado el nombre de la playlist, lo cual es un dato modificable. Se devolverá un status 200 y el resultado sería el siguiente:
+
+```JSON
+{
+  "songs": [
+    "62881b471186320016173f02",
+    "62881ace1186320016173eff"
+  ],
+  "genre": [
+    "Pop"
+  ],
+  "_id": "6288db769921fb00163ca14b",
+  "name": "Canciones",
+  "duration": "10:14",
+  "__v": 0
+}
+```
+
+Un incorrecto uso de la petición sería intentar modificar la duración de la playlist o no rellenar el campo **duration**.
+
+![testPatchPlaylistincorrecto]()
+
+Finalmente pasando a la operación **DELETE**, se realiza según: query o id.
+Tal y como explicado para las operaciones anteriores, se realiza un ejemplo correcto insertando en la ruta '/artist', '/song', '/playlist' y añadiendo el id de lo que se quiere eliminar. Obviamente, según el id, será incorrecto insertar un id inexistente.
+
+![testDeletecorrecto]()
+
+Por otra parte, un ejemplo correcto para eliminar según query sería rellenar el campo con el nombre correcto de un artista, playlist o canción existente. Un ejemplo incorrecto vería una petición con el nombre inexistente o directamente un campo sin rellenar, por lo que devolvería un error 500.
+
+![testDeleteincorrecto]()
+
+Cabe destacar que para las varias operaciones, no se explicó cada test, sino que se explicó el caso de uso correcto y el caso de uso incorrecto de cada tipo y, tomando como ejemplo una playlist, un artista o una canción.
+
+
 # CONCLUSIÓN <a name="id9"></a>
 
 En conclusión, se puede comentar en este último proyecto grupal hemos podido emplear todas las técnicas y herramientas que se han ido aprendiendo a lo largo del curso en esta asignatura, algunas que se podrían destacar son:

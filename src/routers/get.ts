@@ -22,7 +22,7 @@ getRouter.get('/artist', async (req, res) => {
     // Get the artists from the database.
     const filter = req.query.name?{name: req.query.name.toString()}:{};
     const artist = await Artist.find(filter);
-    
+
     // Send the artists to the client. Otherwise, send an error.
     if (artist.length !== 0) {
       return res.send(artist);
