@@ -35,7 +35,7 @@ deleteRouter.delete('/artist/:id', async (req, res) => {
 deleteRouter.delete('/song', async (req, res) => {
   try {
     const songDelete =
-        await Song.findOneAndDelete({name: req.query.name?.toString()});
+        await Song.findOneAndDelete({title: req.query.title?.toString()});
     if (!songDelete) {
       return res.status(404).send();
     }
