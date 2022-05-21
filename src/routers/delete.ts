@@ -34,8 +34,8 @@ deleteRouter.delete('/artist/:id', async (req, res) => {
 // Song
 deleteRouter.delete('/song', async (req, res) => {
   try {
-    const songDelete = await Song.findOneAndDelete({name: req.query.name?.
-        toString()});
+    const songDelete =
+        await Song.findOneAndDelete({name: req.query.name?.toString()});
     if (!songDelete) {
       return res.status(404).send();
     }
@@ -62,6 +62,18 @@ deleteRouter.delete('/playlist', async (req, res) => {
   try {
     const playlistDelete =
         await Playlist.findOneAndDelete({name: req.query.name?.toString()});
+    if (!playlistDelete) {
+      return res.status(404).send();
+    }
+    return res.send(playlistDelete);
+  } catch (error) {
+    return res.status(400).send();
+  }
+});
+
+deleteRouter.delete('/playlist/:id', async (req, res) => {
+  try {
+    const playlistDelete = await Playlist.findByIdAndDelete(req.params.id);
     if (!playlistDelete) {
       return res.status(404).send();
     }
