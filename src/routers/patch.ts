@@ -130,13 +130,13 @@ patchRouter.patch('/song/:id', async (req, res) => {
 // Playlist
 patchRouter.patch('/playlist', async (req, res) => {
   try {
-    if (!req.query.title) {
+    if (!req.query.name) {
       return res.status(400).send({
-        error: 'A title must be provided',
+        error: 'A name must be provided',
       });
     }
 
-    const allowedUpdates = ['title', 'songs'];
+    const allowedUpdates = ['name', 'songs'];
     const actualUpdates = Object.keys(req.body);
     const isValidUpdate =
         actualUpdates.every((update) => allowedUpdates.includes(update));
@@ -147,7 +147,7 @@ patchRouter.patch('/playlist', async (req, res) => {
       });
     }
     const playlist = await Playlist.findOneAndUpdate(
-        {title: req.query.title?.toString()}, req.body, {
+        {name: req.query.name?.toString()}, req.body, {
           new: true,
           runValidators: true,
         });
@@ -164,7 +164,7 @@ patchRouter.patch('/playlist', async (req, res) => {
 
 patchRouter.patch('/playlist/:id', async (req, res) => {
   try {
-    const allowedUpdates = ['title', 'songs'];
+    const allowedUpdates = ['name', 'songs'];
     const actualUpdates = Object.keys(req.body);
     const isValidUpdate =
         actualUpdates.every((update) => allowedUpdates.includes(update));
