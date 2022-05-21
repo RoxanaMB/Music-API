@@ -3,7 +3,6 @@ import {Artist} from '../models/artist';
 import {Song} from '../models/song';
 import {Playlist} from '../models/playlist';
 
-// eslint-disable-next-line new-cap
 export const patchRouter = express.Router();
 
 patchRouter.patch('/artist', async (req, res) => {

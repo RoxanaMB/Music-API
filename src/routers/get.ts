@@ -3,7 +3,6 @@ import {Artist} from '../models/artist';
 import {Song} from '../models/song';
 import {Playlist} from '../models/playlist';
 
-// eslint-disable-next-line new-cap
 export const getRouter = express.Router();
 
 getRouter.get('/artist', async (req, res) => {
