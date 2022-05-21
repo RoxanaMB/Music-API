@@ -53,21 +53,11 @@ patchRouter.patch('/artist/:id', async (req, res) => {
         error: 'Update is not permitted',
       });
     }
-    const artistUpdate = await Artist.findByIdAndUpdate(req.params.id, req.body,
+    const artist = await Artist.findByIdAndUpdate(req.params.id, req.body,
         {
           new: true,
           runValidators: true,
         });
-    let artist = undefined;
-    if (!artistUpdate) {
-      return res.status(404).send();
-    } else {
-      artist = await artistUpdate.save();
-    }
-
-    if (!artist) {
-      return res.status(404).send();
-    }
 
     return res.send(artist);
   } catch (error) {
