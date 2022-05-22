@@ -1,9 +1,9 @@
 import {connect, connection} from 'mongoose';
 
 /**
- * URL de la base de datos
- *  Se toma de la variable de entorno si existe
- *  Si no, se toma la dirección de una base de datos local por defecto
+ * database url
+ *  Take the database url from the environment variable if it exists
+ *  Otherwise, use a local database
  */
 const databaseURL = process.env.MONGODB_URL || 'mongodb://127.0.0.1:27017/app';
 
@@ -14,6 +14,15 @@ const databaseURL = process.env.MONGODB_URL || 'mongodb://127.0.0.1:27017/app';
  * - useUnifiedTopology: true
  * - useCreateIndex: true
  * - useFindAndModify: false
+ */
+/**
+ * Connect to the database
+ * @param url
+ * @param options - options for the connection
+ *  - useNewUrlParser: true
+ *  - useUnifiedTopology: true
+ *  - useCreateIndex: true
+ *  - useFindAndModify: false
  */
 connect(databaseURL, {
   useNewUrlParser: true,

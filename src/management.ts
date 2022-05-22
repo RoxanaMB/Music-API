@@ -7,17 +7,17 @@ import {defaultRouter} from './routers/default';
 import {patchRouter} from './routers/patch';
 
 /**
- * Crea una instancia de express
+ * Create a new express app.
  */
 const app = express();
 
 /**
  * Routers:
- * - defaultRouter: para las rutas desconocidas
- * - postRouter: para las peticiones POST
- * - getRouter: para las peticiones GET
- * - deleteRouter: para las peticiones DELETE
- * - patchRouter: para las peticiones PATCH
+ * - defaultRouter: for unknown routes
+ * - postRouter: for POST requests
+ * - getRouter: for GET requests
+ * - deleteRouter: for DELETE requests
+ * - patchRouter: for PATCH requests
  */
 app.use(express.json());
 app.use(postRouter);
@@ -27,14 +27,14 @@ app.use(patchRouter);
 app.use(defaultRouter);
 
 /**
- * Puerto de la aplicación
- * Se toma de la variable de entorno si existe
- * Si no, se toma el puerto 3000
+ * app port
+ * Take the app port from the environment variable if it exists
+ * Otherwise, use port 3000
  */
 const port = process.env.PORT || 3000;
 
 /**
- * Inicia la aplicación en el puerto definido
+ * Start the app on the port defined
  */
 app.listen(port, () => {
   console.log(`Server is up on port ${port}`);
