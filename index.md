@@ -60,7 +60,7 @@ En cuánto al funcionamiento de la API, es necesario que se pueda realizar una s
 
 En la imagen anterior se puede observar que por cada operación que realizamos, se realiza una petición a la API, y se comprueba que la respuesta es la esperada en base al estado de la operación (2xx, 4xx, 5xx). Se necesita la URL conectada con **Heroku**, para poder realizar las pruebas.
 
-## POST <a name="id9"></a>
+## TEST POST <a name="id9"></a>
 
 Empezando por la operaciones de **POST**, se realizaron pruebas con body para poder crear artistas, canciones y playlists.
 
@@ -144,7 +144,7 @@ En este caso el body sería incorrecto ya que no cumple con los requisitos para 
 }
 
 ```
-## GET <a name="id10"></a>
+## TEST GET <a name="id10"></a>
 
 Pasamos a realizar una petición **GET** a la API, para comprobar que la base de datos está funcionando correctamente. Para este tipo de operaciones se realiza según: query o id.
 
@@ -194,7 +194,7 @@ Un uso incorrecto sería no rellanar algún parámetro, por lo que devolverá un
 
 ![testQueryIncorrecto](https://user-images.githubusercontent.com/72470014/169672753-0cdcb7d7-e8c5-4b2e-8173-19102c16ea53.png)
 
-## PATCH <a name="id8"></a>
+## TEST PATCH <a name="id8"></a>
 
 En cuánto al uso de la operación **PATCH**, igual que la operación **GET**, se realiza según: query o id.
 
@@ -264,7 +264,7 @@ Un incorrecto uso de la petición sería intentar modificar la duración de la p
 
 ![queryIncorrectoPlaylist](https://user-images.githubusercontent.com/72470014/169672814-145eada7-9ed6-471d-a2f1-86e7f02ec36a.png)
 
-## DELETE <a name="id12"></a>
+## TEST DELETE <a name="id12"></a>
 
 Finalmente pasando a la operación **DELETE**, se realiza según: query o id.
 Tal y como explicado para las operaciones anteriores, se realiza un ejemplo correcto insertando en la ruta '/artist', '/song', '/playlist' y añadiendo el id de lo que se quiere eliminar. Obviamente, según el id, será incorrecto insertar un id inexistente.
