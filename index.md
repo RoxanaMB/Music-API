@@ -267,9 +267,9 @@ Un incorrecto uso de la petición sería intentar modificar la duración de la p
 ## TEST DELETE <a name="id12"></a>
 
 Finalmente pasando a la operación **DELETE**, se realiza según: query o id.
-Tal y como explicado para las operaciones anteriores, se realiza un ejemplo correcto insertando en la ruta '/artist', '/song', '/playlist' y añadiendo el id de lo que se quiere eliminar. Obviamente, según el id, será incorrecto insertar un id inexistente.
+Tal y como explicado para las operaciones anteriores, se realiza un ejemplo correcto insertando en la ruta '/artist', '/song', '/playlist' y añadiendo el id de lo que se quiere eliminar. Obviamente, según el id, será incorrecto insertar un id inexistente, como en la siguiente imagen:
 
-![testDeletecorrecto](https://user-images.githubusercontent.com/72470014/169672861-fa360ee4-62d3-4524-82c3-a013389523f7.png)
+![testDeleteIncorrecto](https://user-images.githubusercontent.com/72470014/169673081-fd5844d0-808d-4b36-aee7-350e77014d06.png)
 
 Por otra parte, un ejemplo correcto para eliminar según query sería rellenar el campo con el nombre correcto de un artista, playlist o canción existente. Un ejemplo incorrecto vería una petición con el nombre inexistente o directamente un campo sin rellenar, por lo que devolvería un error 404.
 
