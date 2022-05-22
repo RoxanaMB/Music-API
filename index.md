@@ -1,6 +1,7 @@
 # Práctica 12 - API Node/Express de gestión de información musical
 
 # ÍNDICE
+- [Práctica 12 - API Node/Express de gestión de información musical](#práctica-12---api-nodeexpress-de-gestión-de-información-musical)
 - [ÍNDICE](#índice)
 - [INTRODUCCIÓN <a name="id1"></a>](#introducción-)
 - [ESQUEMAS Y MODELOS <a name="id2"></a>](#esquemas-y-modelos-)
@@ -12,10 +13,10 @@
 - [FUNCIONAMIENTO <a name="id8"></a>](#funcionamiento-)
   - [TEST POST <a name="id9"></a>](#test-post-)
   - [TEST GET <a name="id10"></a>](#test-get-)
-  - [TEST PATCH <a name="id11"></a>](#test-patch-)
+  - [TEST PATCH <a name="id8"></a>](#test-patch-)
   - [TEST DELETE <a name="id12"></a>](#test-delete-)
 - [CONCLUSIÓN <a name="id13"></a>](#conclusión-)
-- [INTEGRANTES <a name="id14"></a>](#integrantes-)
+- [INTEGRANTES <a name="id10"></a>](#integrantes-)
 
 # INTRODUCCIÓN <a name="id1"></a>
 
@@ -174,8 +175,7 @@ En el siguiente código, se muestran los esquemas en los cuales se indicarán la
   });
   ```
 
-En los esquemas definimos de qué tipos son las propiedades, en este caso serán de tipos String. Sin embargo,  la propiedad **songs** del esquema **PlaylistSchema** y la propiedad **author** de **SongSchema**, serán de tipo _Schema.Types.ObjectId_, un String hexadecimal utilizado por MongoDB como identificador. Esto quiere decir que las propiedades mencionadas serán subesquemas de un objeto asociado a un identificador. Por lo que, si el cliente hace una petición _get_ de una playlist en concreto, el servidor devolverá como respuesta el contenido almacenado más las propiedades de las canciones asociadas a la lista de reproducción.
-
+En los esquemas definimos de qué tipos son las propiedades, en este caso serán de tipos String. Sin embargo,  la propiedad **songs** del esquema **PlaylistSchema** y la propiedad **author** de **SongSchema**, serán de tipo _Schema.Types.ObjectId_, un String hexadecimal utilizado por MongoDB como identificador.
 Por otra parte, en los esquemas utilizamos las opciones:
 * **required:** especifica que una propiedad del esquema debe ser obligatoria.
 * **default:** indica un valor por defecto para una propiedad.
