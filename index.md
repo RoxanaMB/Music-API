@@ -8,8 +8,12 @@
   - [UPDATE <a name="id6"></a>](#update-)
   - [DELETE <a name="id7"></a>](#delete-)
 - [FUNCIONAMIENTO <a name="id8"></a>](#funcionamiento-)
-- [CONCLUSIÓN <a name="id9"></a>](#conclusión-)
-- [INTEGRANTES <a name="id10"></a>](#integrantes-)
+  - [POST <a name="id9"></a>](#post1-)
+  - [GET <a name="id10"></a>](#get1-)
+  - [PATCH <a name="id11"></a>](#patch-)
+  - [DELETE <a name="id12"></a>](#delete1-)
+- [CONCLUSIÓN <a name="id13"></a>](#conclusión-)
+- [INTEGRANTES <a name="id14"></a>](#integrantes-)
 
 # INTRODUCCIÓN <a name="id1"></a>
 
@@ -55,6 +59,8 @@ En cuánto al funcionamiento de la API, es necesario que se pueda realizar una s
 ![tests general](https://user-images.githubusercontent.com/72470014/169672653-e9fd8eb3-1aa6-41a3-8bb3-3fac8353ad96.png)
 
 En la imagen anterior se puede observar que por cada operación que realizamos, se realiza una petición a la API, y se comprueba que la respuesta es la esperada en base al estado de la operación (2xx, 4xx, 5xx). Se necesita la URL conectada con **Heroku**, para poder realizar las pruebas.
+
+## POST <a name="id9"></a>
 
 Empezando por la operaciones de **POST**, se realizaron pruebas con body para poder crear artistas, canciones y playlists.
 
@@ -138,6 +144,7 @@ En este caso el body sería incorrecto ya que no cumple con los requisitos para 
 }
 
 ```
+## GET <a name="id10"></a>
 
 Pasamos a realizar una petición **GET** a la API, para comprobar que la base de datos está funcionando correctamente. Para este tipo de operaciones se realiza según: query o id.
 
@@ -187,6 +194,7 @@ Un uso incorrecto sería no rellanar algún parámetro, por lo que devolverá un
 
 ![testQueryIncorrecto](https://user-images.githubusercontent.com/72470014/169672753-0cdcb7d7-e8c5-4b2e-8173-19102c16ea53.png)
 
+## PATCH <a name="id8"></a>
 
 En cuánto al uso de la operación **PATCH**, igual que la operación **GET**, se realiza según: query o id.
 
@@ -256,6 +264,8 @@ Un incorrecto uso de la petición sería intentar modificar la duración de la p
 
 ![queryIncorrectoPlaylist](https://user-images.githubusercontent.com/72470014/169672814-145eada7-9ed6-471d-a2f1-86e7f02ec36a.png)
 
+## DELETE <a name="id12"></a>
+
 Finalmente pasando a la operación **DELETE**, se realiza según: query o id.
 Tal y como explicado para las operaciones anteriores, se realiza un ejemplo correcto insertando en la ruta '/artist', '/song', '/playlist' y añadiendo el id de lo que se quiere eliminar. Obviamente, según el id, será incorrecto insertar un id inexistente.
 
@@ -268,7 +278,7 @@ Por otra parte, un ejemplo correcto para eliminar según query sería rellenar e
 Cabe destacar que para las varias operaciones, no se explicó cada test, sino que se explicó el caso de uso correcto y el caso de uso incorrecto de cada tipo y, tomando como ejemplo una playlist, un artista o una canción.
 
 
-# CONCLUSIÓN <a name="id9"></a>
+# CONCLUSIÓN <a name="id13"></a>
 
 En conclusión, se puede comentar en este último proyecto grupal hemos podido emplear todas las técnicas y herramientas que se han ido aprendiendo a lo largo del curso en esta asignatura, algunas que se podrían destacar son:
 
