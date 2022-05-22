@@ -1,7 +1,6 @@
 <br>
 
 # ÍNDICE
-- [Práctica 12 - API Node/Express de gestión de información musical](#práctica-12---api-nodeexpress-de-gestión-de-información-musical)
 - [ÍNDICE](#índice)
 - [INTRODUCCIÓN <a name="id1"></a>](#introducción-)
 - [ESQUEMAS Y MODELOS <a name="id2"></a>](#esquemas-y-modelos-)
@@ -176,6 +175,7 @@ En el siguiente código, se muestran los esquemas en los cuales se indicarán la
   ```
 
 En los esquemas definimos de qué tipos son las propiedades, en este caso serán de tipos String. Sin embargo,  la propiedad **songs** del esquema **PlaylistSchema** y la propiedad **author** de **SongSchema**, serán de tipo _Schema.Types.ObjectId_, un String hexadecimal utilizado por MongoDB como identificador.
+
 Por otra parte, en los esquemas utilizamos las opciones:
 * **required:** especifica que una propiedad del esquema debe ser obligatoria.
 * **default:** indica un valor por defecto para una propiedad.
