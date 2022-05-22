@@ -8,10 +8,10 @@
   - [UPDATE <a name="id6"></a>](#update-)
   - [DELETE <a name="id7"></a>](#delete-)
 - [FUNCIONAMIENTO <a name="id8"></a>](#funcionamiento-)
-  - [POST <a name="id9"></a>](#post1-)
-  - [GET <a name="id10"></a>](#get1-)
+  - [POST <a name="id9"></a>](#post-)
+  - [GET <a name="id10"></a>](#get-)
   - [PATCH <a name="id11"></a>](#patch-)
-  - [DELETE <a name="id12"></a>](#delete1-)
+  - [DELETE <a name="id12"></a>](#delete-)
 - [CONCLUSIÓN <a name="id13"></a>](#conclusión-)
 - [INTEGRANTES <a name="id14"></a>](#integrantes-)
 
