@@ -52,13 +52,13 @@ Dana
 # FUNCIONAMIENTO <a name="id8"></a>
 En cuánto al funcionamiento de la API, es necesario que se pueda realizar una serie de pruebas para comprobar que todo funciona correctamente. Para ello hacemos uso de la herramienta [Thunder Clients](https://thunder-clients.herokuapp.com/), que nos permite realizar las pruebas de la API. 
 
-![tests general]()
+![tests general](https://user-images.githubusercontent.com/72470014/169672653-e9fd8eb3-1aa6-41a3-8bb3-3fac8353ad96.png)
 
 En la imagen anterior se puede observar que por cada operación que realizamos, se realiza una petición a la API, y se comprueba que la respuesta es la esperada en base al estado de la operación (2xx, 4xx, 5xx). Se necesita la URL conectada con **Heroku**, para poder realizar las pruebas.
 
 Empezando por la operaciones de **POST**, se realizaron pruebas con body para poder crear artistas, canciones y playlists.
 
-![testPostQuery1]()
+![testPost](https://user-images.githubusercontent.com/72470014/169672664-2cb059d7-71b4-4bd5-9adf-ebeac9a9638d.png)
 
 Tomando como ejemplo correcto la creación de un artista, en este caso Rad Museum, se realiza una petición POST a la API, con el siguiente body:
 
@@ -143,7 +143,7 @@ Pasamos a realizar una petición **GET** a la API, para comprobar que la base de
 
 Un ejemplo correcto para una canción como se puede observar en la siguiente imagen, es hacer uso del id de **Smooth Criminal**:
 
-![testGetSmoothCriminal]()
+![testGetSmoothCriminal](https://user-images.githubusercontent.com/72470014/169672678-49cdf738-1e86-4434-8812-3cc1a3118628.png)
 
 En este caso es un uso correcto porque se ha realizado una petición GET a la API, con el id de la canción **Smooth Criminal** creada. Se obtiene un resultado en el cual se muestra el nombre de la canción, el nombre del artista, la duración, si es un single o no, el número de reproducciones y el id de la canción.
 
@@ -176,22 +176,23 @@ En este caso es un uso correcto porque se ha realizado una petición GET a la AP
 
 Por otro lado, un ejemplo incorrecto para una canción como se puede observar en la siguiente imagen, es hacer uso del id de **Smooth Criminal** poniendo la ruta equivocada, por lo que devolverá un error 500.
 
-![testGetSmoothCriminalidEquivocado]()
+![testGetSmoothCriminalidEquivocado](https://user-images.githubusercontent.com/72470014/169672703-e8f38da4-e64a-4281-b89a-c9bbe45a12ea.png)
 
 
 Un uso correcto de la operación **GET** con query, es hacer uso de la ruta '/artist', '/song', '/playlist'  y añadir parametros según lo que se quiera obtener en la pestaña 'Query'.
 
-![testGetQuerycorrecto]()
+![testGetQuerycorrecto](https://user-images.githubusercontent.com/72470014/169672724-10fa545a-3709-44da-81b5-3c179c038451.png)
 
-Un uso incorrecto sería no rellanar algún parámetro, por ejemplo no rellenar el parámetro **genre**, por lo que devolverá un error 500.
+Un uso incorrecto sería no rellanar algún parámetro, por lo que devolverá un error 400.
 
+![testQueryIncorrecto](https://user-images.githubusercontent.com/72470014/169672753-0cdcb7d7-e8c5-4b2e-8173-19102c16ea53.png)
 
 
 En cuánto al uso de la operación **PATCH**, igual que la operación **GET**, se realiza según: query o id.
 
 Un ejemplo correcto para un artista según el ID de **Michael Jackson**, es hacer uso de la ruta '/artist' y añadir el id de **Michael Jackson**:
 
-![testPatchMichaelJackson]()
+![testPatchMichaelJackson](https://user-images.githubusercontent.com/72470014/169672790-60c3b0f6-6ac1-46e2-911d-aabd8479bc44.png)
 
 En este caso el uso es correcto, ya que todos los datos modificados son correctos. Se obtiene un resultado en el cual se muestra el nombre del artista, el género, las canciones y el número de años de escucha. Además, se muestra el id del artista, ya que se ha modificado en la base de datos. En este caso, se cambia el nombre a **Mike Jake**.
 
@@ -223,7 +224,7 @@ Y un ejemplo incorrecto sería intentar cambiar el género de **Michael Jackson*
 
 En el caso de hacer la petición con query de una playlist, por ejemplo, se hace uso de la ruta '/playlist' y sin añadir el id de la playlist:
 
-![testPatchPlaylist]()
+![testPatchPlaylist](https://user-images.githubusercontent.com/72470014/169672802-bfd38404-927b-4a3b-aa24-29ef987621d0.png)
 
 Mientras que en el body tedríamos lo siguiente:
 
@@ -253,16 +254,16 @@ La petición sería correcta ya que se ha modificado el nombre de la playlist, l
 
 Un incorrecto uso de la petición sería intentar modificar la duración de la playlist o no rellenar el campo **duration**.
 
-![testPatchPlaylistincorrecto]()
+![queryIncorrectoPlaylist](https://user-images.githubusercontent.com/72470014/169672814-145eada7-9ed6-471d-a2f1-86e7f02ec36a.png)
 
 Finalmente pasando a la operación **DELETE**, se realiza según: query o id.
 Tal y como explicado para las operaciones anteriores, se realiza un ejemplo correcto insertando en la ruta '/artist', '/song', '/playlist' y añadiendo el id de lo que se quiere eliminar. Obviamente, según el id, será incorrecto insertar un id inexistente.
 
-![testDeletecorrecto]()
+![testDeletecorrecto](https://user-images.githubusercontent.com/72470014/169672861-fa360ee4-62d3-4524-82c3-a013389523f7.png)
 
-Por otra parte, un ejemplo correcto para eliminar según query sería rellenar el campo con el nombre correcto de un artista, playlist o canción existente. Un ejemplo incorrecto vería una petición con el nombre inexistente o directamente un campo sin rellenar, por lo que devolvería un error 500.
+Por otra parte, un ejemplo correcto para eliminar según query sería rellenar el campo con el nombre correcto de un artista, playlist o canción existente. Un ejemplo incorrecto vería una petición con el nombre inexistente o directamente un campo sin rellenar, por lo que devolvería un error 404.
 
-![testDeleteincorrecto]()
+![testDeleteincorrecto](https://user-images.githubusercontent.com/72470014/169672883-59b348df-b1ef-418d-addf-e44b99291e79.png)
 
 Cabe destacar que para las varias operaciones, no se explicó cada test, sino que se explicó el caso de uso correcto y el caso de uso incorrecto de cada tipo y, tomando como ejemplo una playlist, un artista o una canción.
 
