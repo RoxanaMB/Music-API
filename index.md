@@ -1,4 +1,4 @@
-# Práctica 12 - API Node/Express de gestión de información musical
+<br>
 
 # ÍNDICE
 - [ÍNDICE](#índice)
